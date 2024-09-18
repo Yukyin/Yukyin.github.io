@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Ph.D. candidate in Computer Science at Fudan University in Shanghai, China. My research interests include <i>large language models, multimodal models, natural language processing, question-answering systems, dialogue systems, knowledge graphs, emotion computing, and AI-based interdisciplinary research</i>.
+I am a Ph.D. candidate in Computer Science at Fudan University in Shanghai, China. My research interests include <i>large language models, multimodal large models, natural language processing, question-answering systems, dialogue systems, knowledge graphs, emotion computing, and AI-based interdisciplinary research</i>.
 
 My work primarily involves:
 
@@ -17,7 +17,7 @@ My work primarily involves:
 * Demonstrating empathy and understanding towards users, maintaining a consistent interaction style, and generating humor.
 * Optimizing model training for greater efficiency and precision.
 
-I have an active research record, with 34 papers submitted, including 22 as the first author and 15 already published. My work has been featured in top-tier conferences such as ACL, AAAI, and EMNLP. Beyond academia, I have applied for 48 national patents (40 as the first inventor), with 30 granted. My contributions have been recognized with multiple awards at international, national, and university levels. I have also gained valuable industry experience through internships at organizations like Microsoft Research Asia and ByteDance, etc. In these roles, I worked on projects involving lightweight training of language models, multimodal applications, and enhancing AI capabilities in e-commerce and social media platforms. In addition to my research and industry experience, I have served as a peer reviewer for several prestigious conferences, including ACL, EMNLP, NAACL, and COLING, etc. 
+I have an active research record, with 34 papers submitted, including 13 already published as the first author. My work has been featured in top-tier conferences such as ACL, AAAI, and EMNLP. Beyond academia, I have applied for 48 national patents (40 as the first inventor), with 30 granted. My contributions have been recognized with multiple awards at international, national, and university levels. I have also gained valuable industry experience through internships at organizations like Microsoft Research Asia and ByteDance, etc. In these roles, I worked on projects involving lightweight training of language models, multimodal applications, and enhancing AI capabilities in e-commerce and social media platforms. In addition to my research and industry experience, I have served as a peer reviewer for several prestigious conferences, including ACL, EMNLP, NAACL, and COLING, etc. 
 
 My overarching goal is to develop intelligent, empathetic, and trustworthy AI systems that can effectively interact with humans and contribute positively across various vertical domains by integrating advancements in robotics, hardware, and specialized applications. [[CV]](/files/YYC.pdf)
 
