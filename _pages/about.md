@@ -140,7 +140,7 @@ Reviewer / Program Committee Member:
 * [2024] ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), CCF-Rank A. <strong>3 papers<strong>.
 * [2024] The Annual Meeting of the Association for Computational Linguistics (ACL), CCF-Rank A. <strong>4 papers<strong>.
 * [2024] The Conference on Empirical Methods in Natural Language Processing (EMNLP), CCF-Rank B. <strong>5 papers<strong>.
-* [2024] The International Conference on Computational Linguistics (COLING), CCF-Rank B. <strong>5 papers<strong>
+* [2024] The International Conference on Computational Linguistics (COLING), CCF-Rank B. <strong>5 papers<strong>.
 * [2024] ACM Computing Surveys, Impact Factor 23.8. <strong>1 paper<strong>.
 * [2022] The Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), CCF-Rank B. <strong>2 papers<strong>.
 
