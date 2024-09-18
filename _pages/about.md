@@ -1,49 +1,136 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am a Ph.D. candidate in Computer Science at Fudan University in Shanghai, China. My research interests include large language models, multimodal models, natural language processing, question-answering systems, dialogue systems, knowledge graphs, emotion computing, and AI-based interdisciplinary research.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My work aims to enhance the capabilities of large language models by making them more robust in understanding, reasoning, and providing high-quality, reliable answers. I focus on question-answering and dialogue systems to improve human-computer interaction through natural language. By integrating knowledge graphs, I enhance the models' ability to retrieve and reason over structured information, which is crucial for accurate responses. Emotion computing allows these systems to recognize and interpret human emotions, leading to more empathetic and engaging interactions. Additionally, I incorporate multimodal applications to process diverse data types like text, images, and audio, further enriching the interaction experience. By interweaving these areas, I strive to push the boundaries of AI, exploring interdisciplinary applications that make AI systems more intelligent, empathetic, and versatile.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+I have an active research record, with 34 papers submitted, including 22 as the first author and 15 already published. My work has been featured in top-tier conferences such as ACL, AAAI, and EMNLP. Beyond academia, I have applied for 48 national patents (40 as the first inventor), with 30 granted. My contributions have been recognized with multiple awards at international, national, and university levels. I have also gained valuable industry experience through internships at organizations like Microsoft Research Asia and ByteDance. In these roles, I worked on projects involving lightweight training of language models, multimodal applications, and enhancing AI capabilities in e-commerce and social media platforms. In addition to my research and industry experience, I have served as a peer reviewer for several prestigious conferences, including ACL, EMNLP, NAACL, and COLING. 
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+My overarching goal is to develop intelligent, empathetic, and trustworthy AI systems that can effectively interact with humans and contribute positively across various vertical domains by integrating advancements in robotics, hardware, and specialized applications.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+<!-- ## Education and Experience
+* Sep. 2020 - now. Ph.D. candidate, Department of Computer Science and Technology, Tsinghua University, China.
+* Dec. 2018 - Jun. 2019. Visiting student in THUMT, advised by Prof. [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/), Tsinghua University, China.
+* Sep. 2016 - Jun. 2020. B.S., Department of Computer Science and Technology, Beijing Jiaotong University, China.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## News
+* [Aug. 2024] Our paper "Discovering New Intents with Deep Aligned Clustering" has reached its 100th citation!
+* [Jul. 2024] Our paper "Deep Open Intent Classification with Adaptive Decision Boundary" has reached its 100th citation!
+* [May. 2024] Got one first-author full paper accepted by ACL 2024. See you in Bangkok, Thailand!
+* [Jan. 2024] Got one first-author full paper accepted by ICLR 2024. See you in Vienna, Austria!
+* [Dec. 2023] Got one full paper accepted by AAAI 2024. Congratulations to Qianrui!
+* [Dec. 2023] Got one first-author full paper accepted by IEEE TKDE.
+* [Mar. 2023] Got one first-author full paper accepted by IEEE/ACM TASLP.
+* [Sep. 2022] Released MIntRec, a novel benchmark dataset for multimodal intent recognition, available for public use [resources](https://github.com/thuiar/MIntRec), enjoy it!
+* [Jun. 2022] Got one first-author full paper accepted at ACM MM 2022.  
+* [Aug. 2021] Released the first text open intent recognition [toolkit](https://github.com/thuiar/TEXTOIR) (TEXTOIR), integrating a series of methods in open intent detection and discovery, enjoy it!
+* [May. 2021] Got one first-author demo paper accepted at ACL 2021.
+* [Jan. 2021] Released the first open knowledge discovery [reading list](https://github.com/thuiar/OKD-Reading-List), enjoy it!
+* [Dec. 2020] Got two first-author full papers accepted at AAAI 2021.
+* [Nov. 2019] Got one full paper accepted at AAAI 2020.
+ -->
+
+## Publications 
+
+* <strong>Yuyan Chen</strong>, Chenwei Wu, Songzhou Yan, Panjun Liu, Haoyu Zhou, Yanghua Xiao. Dr. Academy: A Benchmark for Evaluating Questioning Capabilities in Education for Large Language Models. <i>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL). 2024. CCF-Rank A.<i> [[pdf]](https://arxiv.org/pdf/2408.10947)[[bib]](/files/Academy.bib)
+* <strong>Yuyan Chen</strong>, Hao Wang, Songzhou Yan, Sijia Liu, Yueze Li, Yi Zhao, Yanghua Xiao*. EmotionQueen: A Benchmark for Evaluating Empathy of Large Language Models. <i>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL). 2024. CCF-Rank A. </i> [[pdf]](https://aclanthology.org/2024.findings-acl.128.pdf) [[bib]](/files/EmotionQueen.bib)
+* <strong>Yuyan Chen</strong>, Tianhao Yu, Yueze Li, Songzhou Yan, Sijia Liu, Jiaqing Liang, Yanghua Xiao. Do Large Language Models Have Problem-Solving Capability Under Incomplete Information Scenarios? <i>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL). 2024. CCF-Rank A. <i> [[pdf]](https://aclanthology.org/2024.findings-acl.131.pdf) [[bib]](/files/Do_Large_Language.bib)
+* <strong>Yuyan Chen</strong>, Yiwen Qian, Songzhou Yan, Jiyuan Jia, Zhixu Li, Yanghua Xiao, Xiaobo Li, Ming Yang, Qingpei Guo. HOTVCOM: Generating Buzzworthy Comments for Videos. <i>Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL). 2024. CCF-Rank A.  </i> [[pdf]](https://aclanthology.org/2024.findings-acl.130.pdf)[[code]](https://drive.google.com/drive/folders/1E0IvbqW1lrRS7wnvGJMuvxpLafsyGdJ3?usp=sharing) [[bib]](/files/HOTVCOM.bib)
+* <strong>Yuyan Chen</strong>, Yichen Yuan, Panjun Liu, Dayiheng Liu, Qinghao Guan, Mengfei Guo, Haiming Peng, Zhixu Li*, Yanghua Xiao, Bang Liu. Talk Funny! A Large-Scale Humor Response Dataset with Chain-of-Humor Interpretation. <i>Proceedings of the 38th AAAI Conference on Artificial Intelligence (AAAI). 2024. CCF-Rank A.  </i> [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/view/29736/31266)[[code]](https://drive.google.com/drive/folders/1zMRCOziVE16E9L0VuTfPZV6C-S2fDNl6?usp=sharing) [[bib]](/files/Talk_Funny.bib)
+* <strong>Yuyan Chen</strong>, Songzhou Yan, Zhixu Li, Yanghua Xiao. XMeCap: Meme Caption Generation with Sub-Image Adaptability. <i>Proceedings of the 32nd ACM International Conference on Multimedia (ACM MM). 2024. CCF-Rank A.  </i> [[pdf]](https://arxiv.org/pdf/2407.17152) [[bib]](/files/XMeCap.bib)
+* Zhihong Zhu, Xuxin Cheng, Zhaorun Chen, <strong>Yuyan Chen</strong>, Yunyan Zhang, Xian Wu, Yefeng Zheng, Bowen Xing. InMu-Net: Advancing Multi-modal Intent Detection via Information Bottleneck and Multi-sensory Processing. <i>Proceedings of the 32nd ACM International Conference on Multimedia (ACM MM). 2024. CCF-Rank A. <i> [[pdf]](https://openreview.net/pdf?id=CuX8NF7XJq) [[bib]](/files/InMu-Net.bib)
+* <strong>Yuyan Chen</strong>, Yanghua Xiao, Bang Liu, Zhixu Li. XMQAs: Constructing Complex-Modified Question-Answering Dataset for Robust Question Understanding. <i>IEEE Transactions on Knowledge and Data Engineering (TKDE). 2023. CCF-Rank A</i> [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10214399) [[code]](https://drive.google.com/drive/folders/1FPqiJxS5uQN6E4GjZVhK590_XsMcRBdo?usp=sharing) [[bib]](/files/XMQAs.bib)
+* <strong>Yuyan Chen</strong>, Yanghua Xiao, Bang Liu. Grow-and-Clip: Informative-yet-Concise Evidence Distillation for Answer Explanation. <i>Proceedings of the 38th IEEE International Conference on Data Engineering (ICDE). 2022. CCF-Rank A. </i> [[pdf]](https://arxiv.org/pdf/2201.05088)[[code]](https://drive.google.com/drive/folders/1uDCkca7Oxcx4wtqLVlxg7-598xXyDO7o?usp=sharing) [[bib]](/files/Grow-and-Clip.bib)
+* <strong>Yuyan Chen</strong>, Jin Zhao, Zhihao Wen, Zhixu Li, Yanghua Xiao. TemporalMed: Advancing Medical Dialogues with Time-Aware Responses in Large Language Models. <i>Proceedings of the 17th ACM International Conference on Web Search and Data Mining (WSDM). 2024. CCF-Rank B, THU-Rank A.</i> [[pdf]](https://web.archive.org/web/20240305001631id_/https://dl.acm.org/doi/pdf/10.1145/3616855.3635860) [[bib]](/files/TemporalMed.bib)
+* <strong>Yuyan Chen</strong>, Zhixu Li, Jiaqing Liang, Yanghua Xiao, Bang Liu, Yunwen Chen. Can Pre-trained Language Models Understand Chinese Humor? <i>Proceedings of the 16th ACM International Conference on Web Search and Data Mining (WSDM). 2023. CCF-Rank B, THU-Rank A.  </i> [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3539597.3570431)[[code]](https://drive.google.com/drive/folders/1bb15VAq-5DY0ssyB_-pnVcqsCpEhZ-X8?usp=sharing) [[bib]](/files/Can_Pre-trained_Language.bib)
+* <strong>Yuyan Chen</strong>, Zhihao Wen, Ge Fan, Zhengyu Chen, Wei Wu, Dayiheng Liu, Zhixu Li, Bang Liu, Yanghua Xiao. MAPO: Boosting Large Language Model Performance with Model-Adaptive Prompt Optimization. <i>Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP). 2023. CCF-Rank B, THU-Rank A.  </i> [[pdf]](https://arxiv.org/pdf/2407.04118)[[code]](https://drive.google.com/drive/folders/1yFoY34R1HwQO9ZZfAE_9aiCJB31L65zB?usp=sharing) [[bib]](/files/MAPO.bib)
+* <strong>Yuyan Chen</strong>, Qiang Fu, Ge Fan, Lun Du, Jian-Guang Lou, Shi Han, Zhixu Li, Yanghua Xiao, Dongmei Zhang. Hadamard Adapter: An Extreme Parameter-Efficient Adapter Tuning Method for Pre-trained Language Models. <i>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM). 2023. CCF-Rank B.  </i> [[pdf]](https://arxiv.org/pdf/2407.11033)[[code]](https://drive.google.com/drive/folders/1zom1cZKZkVWa9WF6pY533U02eTw6Oqg7?usp=sharing) [[bib]](/files/Hadamard.bib)
+* <strong>Yuyan Chen</strong>, Qiang Fu, Yichen Yuan, Zhihao Wen, Ge Fan, Dayiheng Liu, Dongmei Zhang, Zhixu Li, Yanghua Xiao. Hallucination Detection: Discerning Reliable Responses in Large Language Models. <i>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM). 2023. CCF-Rank B.  </i> [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3583780.3614905) [[bib]](/files/Hallucination_Detection.bib)
+* Bo Li, <strong>Yuyan Chen</strong>, Liang Zeng. KENET: Knowledge-Enhanced Doc-Label Attention Network for Multi-Label Text Classification. <i>Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2024. CCF-Rank B.  </i> [[pdf]](https://arxiv.org/pdf/2403.01767) [[bib]](/files/KENET.bib)
+* <strong>Yuyan Chen</strong>, Zelong Liu, Yunxian Mo, Bin Li, Qian Zhou, Sui Peng, Shaoqiang Li*, Ming Kuang. Prediction of Post-Hepatectomy Liver Failure in Patients with Hepatocellular Carcinoma Based on Radiomics Using Gd-EOB-DTPA-Enhanced MRI: The Liver Failure Model. <i>Frontiers in Oncology. 2021. Impact Factor: 6.03.  </i> [[pdf]](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2021.605296/pdf?isPublishedV2=false) [[bib]](/files/Prediction_of_Post-Hepatectomy.bib)
+* Haitian Yang, Weiging Huang, Xuan Zhao, Yan Wang <strong>Yuyan Chen</strong>, Bin Lv, Rui Mao, Ning Li. AMQAN: Adaptive Multi-Attention Question-Answer Networks for Answer Selection. <i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases. ECML-PKDD.2021. CCF-Rank B  </i> [[pdf]](https://link.springer.com/content/pdf/10.1007/978-3-030-67664-3.pdf) [[bib]](/files/AMQAN.bib)
+
+
+
+
+
+<!-- 
+* <strong>Hanlei Zhang</strong>, Hua Xu, Xin Wang, Fei Long, Kai Gao. A Clustering Framework for Unsupervised and Semi-supervised New Intent Discovery. 2023. <i>IEEE Transactions on Knowledge and Data Engineering.</i> (<strong>IEEE TKDE, CCF-A</strong>) [[paper]](https://ieeexplore.ieee.org/document/10349963)  [[code]](https://github.com/thuiar/TEXTOIR/tree/main/open_intent_discovery) [[bibtex]](/files/TKDE23-USNID/USNID.bib)
+
+* <strong>Hanlei Zhang</strong>, Hua Xu, Shaojie Zhao, Qianrui Zhou. Learning Discriminative Representations and Decision Boundaries for Open Intent Detection. 2023.   <i>IEEE/ACM Transactions on Audio, Speech, and Language Processing</i> Volume 31. (<strong>IEEE/ACM TASLP, TH-CPL-A</strong>) [[paper]](https://ieeexplore.ieee.org/document/10097558) [[code]](https://github.com/thuiar/TEXTOIR/tree/main/open_intent_detection) [[bibtex]](/files/TASLP23-DA-ADB/DA-ADB.bib)
+
+* <strong>Hanlei Zhang</strong>, Hua Xu, Xin Wang, Qianrui Zhou, Shaojie Zhao, Jiayan Teng. MIntRec: A New Dataset for Multimodal Intent Recognition. 2022. <i>Proceedings of the 30th ACM International Conference on Multimedia</i>. (<strong>ACM MM 2022, CCF-A</strong>) [[paper]](https://dl.acm.org/doi/10.1145/3503161.3547906) [[code]](https://github.com/thuiar/MIntRec) [[bibtex](/files/ACM-MM22-MIntRec/MIntRec.bib)]
+
+
+
+* <strong>Hanlei Zhang</strong>\*, Xiaoteng Li\*, Hua Xu\*, Panpan Zhang, Kang Zhao, Kai Gao. TEXTOIR: An Integrated and Visualized Platform for Open Intent Recognition. 2021. <i>Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: System Demonstrations</i>. (<strong>ACL-IJCNLP 2021 Demo, CCF-A</strong>)  [[paper]](https://aclanthology.org/2021.acl-demo.20.pdf) [[toolkit]](https://github.com/thuiar/TEXTOIR) [[demo]](https://github.com/thuiar/TEXTOIR-DEMO) [[bibtex]](/files/ACL21-TEXTOIR/TEXTOIR.bib)
+
+* <strong>Hanlei Zhang</strong>, Hua Xu, Ting-En Lin. Deep Open Intent Classification with Adaptive Decision Boundary. 2021. <i>Proceedings of the 35th AAAI Conference on Artificial Intelligence</i>. (<strong>AAAI 2021, CCF-A</strong>)  [[paper]](https://arxiv.org/abs/2012.10209)[[code]](https://github.com/thuiar/Adaptive-Decision-Boundary)[[bibtex]](/files/AAAI21-ADB/ADB.bib)
+
+* <strong>Hanlei Zhang</strong>, Hua Xu, Ting-En Lin, Rui Lyu. Discovering New Intents with Deep Aligned Clustering. 2021. <i>Proceedings of the 35th AAAI Conference on Artificial Intelligence</i>. (<strong>AAAI 2021, CCF-A</strong>)  [[paper]](https://arxiv.org/abs/2012.08987)[[code]](https://github.com/thuiar/DeepAligned-Clustering) [[bibtex]](/files/AAAI21-DeepAligned/DeepAligned.bib)
+
+* Qianrui Zhou, Hua Xu, Hao Li, <strong>Hanlei Zhang</strong>, Xiaohan Zhang, Yifan Wang, Kai Gao. Token-Level Contrastive Learning with Modality-Aware Prompting for Multimodal Intent Recognition. 2024. <i>Proceedings of the 37th AAAI Conference on Artificial Intelligence</i>. (<strong>AAAI 2024, CCF-A</strong>)  [[paper]](https://arxiv.org/pdf/2312.14667.pdf)[[code]](https://github.com/thuiar/TCL-MAP) [[bibtex]](/files/AAAI24-TCL-MAP/TCL-MAP.bib)
+
+* Ting-En Lin, Hua Xu, <strong>Hanlei Zhang</strong>. Discovering New Intents via Constrained Deep Adaptive Clustering with Cluster Refinement. 2020. <i>Proceedings of the 34th AAAI Conference on Artificial Intelligence</i>. (<strong>AAAI 2020, CCF-A</strong>) [[paper]](https://arxiv.org/pdf/1911.08891.pdf)[[code]](https://github.com/thuiar/CDAC-plus)[[bibtex]](/files/AAAI20-CDAC+/CDAC+.bib)[[slide]](/files/AAAI20-CDAC+/slices.pdf) -->
+
+<!-- (\* indicates equal contribution) -->
+
+## Honor and Awards
+
+* [Apr.2024] Campus Academic Star
+* [Sep.2023] Campus Entrepreneurship Star 
+* [Oct.2022] Honorable Mention, Mathematical Contest in Modeling (MCM)
+* [Sep.2020] National First Prize, National College English Competition 
+* [Jun.2020] Outstanding Graduate
+* [Jun.2020] Third place, CCF Big Data and Computing Intelligence Competition: Intelligent personalized package matching model for telecom industry stock users
+* [Sep.2019] Third place, iFLYTEK AI Marketing Algorithm Competition: Predicting users' ad click-through rate, 
+* [Sep.2018] National Second Prize, National College Student Intelligent Technology Application Competition: CANWALK - A Rehabilitation Trainer for Hemiplegic Patients 
+    
+
+
+
+
+## Selected Patents
+
+
+* [2023] <strong>Yuyan Chen</strong>, Zhixu Li, Yanghua Xiao, Fang Guo. Persona Knowledge Graph, Persona Dialogue Dataset, and Persona Consistency Method. ZL202310348845.9.
+* [2023] <strong>Yuyan Chen</strong>, Zhixu Li, Jiaqing Liang, Yanghua Xiao. Method for Exploring Humor Understanding Capabilities of Pre-trained Language Models. ZL202310098163.7.
+* [2023] <strong>Yuyan Chen</strong>, Yanghua Xiao, Zhixu Li. High-Context Empathy Enhancement Response Generation Method and Device for Large Language Models. ZL202311856151.2.
+* [2023] <strong>Yuyan Chen</strong>, Yanghua Xiao, Zhixu Li. Solution Generation Method and Device for Nonlinear Reasoning Tasks. ZL202311856150.8.  
+* [2023] <strong>Yuyan Chen</strong>, Yanghua Xiao, Zhixu Li. Cross-Table Data Generation Method for the Medical Field. ZL202311856146.1.     
+* [2017] <strong>Yuyan Chen</strong>, Chen Liu, Yanmin Liu. A nursing call device based on RFID. Patent No. 201620418967.6.
+* [2016] <strong>Yuyan Chen</strong>, Luosha Gu, Jin Xu, Shiwei Li, Shizhe Yu, Kun Zhang. An intelligent medical wastewater dosing device. Patent No. 201620702663.2.
+
+
+
+## Professional Services
+
+Reviewer / Program Committee Member:
+
+* ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2024, CCF-Rank A. 3 papers.
+* The Annual Meeting of the Association for Computational Linguistics (ACL) 2024, CCF-Rank A. 4 papers.
+* The Conference on Empirical Methods in Natural Language Processing (EMNLP) 2024, CCF-Rank B. 5 papers.
+* The Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL) 2022, CCF-Rank B. 2 papers.
+* The International Conference on Computational Linguistics (COLING) 2025, CCF-Rank B. 5 papers
+* ACM Computing Surveys, Impact Factor 23.8. 1 paper
+
+
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=350&t=tt&d=6oKT70Jy08qPF_EXR7PXexVX1X5I8S5uiTIntTb87ic&cmo=ff5353&cmn=ff5353'></script>
