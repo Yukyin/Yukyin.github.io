@@ -15,7 +15,7 @@ My work aims to enhance the capabilities of large language models by making them
 
 I have an active research record, with 34 papers submitted, including 22 as the first author and 15 already published. My work has been featured in top-tier conferences such as ACL, AAAI, and EMNLP. Beyond academia, I have applied for 48 national patents (40 as the first inventor), with 30 granted. My contributions have been recognized with multiple awards at international, national, and university levels. I have also gained valuable industry experience through internships at organizations like Microsoft Research Asia and ByteDance. In these roles, I worked on projects involving lightweight training of language models, multimodal applications, and enhancing AI capabilities in e-commerce and social media platforms. In addition to my research and industry experience, I have served as a peer reviewer for several prestigious conferences, including ACL, EMNLP, NAACL, and COLING. 
 
-My overarching goal is to develop intelligent, empathetic, and trustworthy AI systems that can effectively interact with humans and contribute positively across various vertical domains by integrating advancements in robotics, hardware, and specialized applications.
+My overarching goal is to develop intelligent, empathetic, and trustworthy AI systems that can effectively interact with humans and contribute positively across various vertical domains by integrating advancements in robotics, hardware, and specialized applications. [[CV]](/files/YYC.pdf)
 
 
 
