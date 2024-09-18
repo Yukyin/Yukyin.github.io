@@ -115,9 +115,8 @@ My overarching goal is to develop intelligent, empathetic, and trustworthy AI sy
 * [2023] <strong>Yuyan Chen</strong>, Yanghua Xiao, Tinghao Shi, Zhixu Li. Time-Aware Response Generation Method and Device for Medical Dialogues. ZL202311856149.5.     
 * [2023] <strong>Yuyan Chen</strong>, Yanghua Xiao, Zhixu Li. Cross-Table Data Generation Method for the Medical Field. ZL202311856146.1.       
 * [2022] <strong>Yuyan Chen</strong>, Zhixu Li, Cong Zhang, Jiaqing Liang, Yanghua Xiao. Method for Enhancing Humor Response Capability of Pre-trained Language Models for Higher-Order Machine Cognition. ZL202211239666.3.
-<!-- * [2017] <strong>Yuyan Chen</strong>, Chen Liu, Yanmin Liu. A nursing call device based on RFID. Patent No. 201620418967.6.
-* [2016] <strong>Yuyan Chen</strong>, Luosha Gu, Jin Xu, Shiwei Li, Shizhe Yu, Kun Zhang. An intelligent medical wastewater dosing device. Patent No. 201620702663.2.
- -->
+
+
 
 
 ## Honor and Awards
