@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Ph.D. candidate in Computer Science at Fudan University in Shanghai, China. My research interests include <i>large language models, multimodal large models, natural language processing, question-answering systems, dialogue systems, knowledge graphs, emotion computing, and AI-based interdisciplinary research</i>.
+I am a Ph.D. candidate at the School of Computer Science, Fudan University, Shanghai, China. My research interests include <i>large language models, multimodal large models, natural language processing, question-answering systems, dialogue systems, knowledge graphs, emotion computing, and AI-based interdisciplinary research</i>.
 
 My work primarily involves:
 
