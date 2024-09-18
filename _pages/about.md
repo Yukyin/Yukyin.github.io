@@ -11,9 +11,13 @@ redirect_from:
 
 I am a Ph.D. candidate in Computer Science at Fudan University in Shanghai, China. My research interests include large language models, multimodal models, natural language processing, question-answering systems, dialogue systems, knowledge graphs, emotion computing, and AI-based interdisciplinary research.
 
-My work aims to enhance the capabilities of large language models by making them more robust in understanding, reasoning, and providing high-quality, reliable answers. I focus on question-answering and dialogue systems to improve human-computer interaction through natural language. By integrating knowledge graphs, I enhance the models' ability to retrieve and reason over structured information, which is crucial for accurate responses. Emotion computing allows these systems to recognize and interpret human emotions, leading to more empathetic and engaging interactions. Additionally, I incorporate multimodal applications to process diverse data types like text, images, and audio, further enriching the interaction experience. By interweaving these areas, I strive to push the boundaries of AI, exploring interdisciplinary applications that make AI systems more intelligent, empathetic, and versatile.
+My work primarily involves:
 
-I have an active research record, with 34 papers submitted, including 22 as the first author and 15 already published. My work has been featured in top-tier conferences such as ACL, AAAI, and EMNLP. Beyond academia, I have applied for 48 national patents (40 as the first inventor), with 30 granted. My contributions have been recognized with multiple awards at international, national, and university levels. I have also gained valuable industry experience through internships at organizations like Microsoft Research Asia and ByteDance. In these roles, I worked on projects involving lightweight training of language models, multimodal applications, and enhancing AI capabilities in e-commerce and social media platforms. In addition to my research and industry experience, I have served as a peer reviewer for several prestigious conferences, including ACL, EMNLP, NAACL, and COLING. 
+* Understanding user queries and providing explanations and reasoning based on existing contexts to deliver the most relevant and reliable answers.
+* Demonstrating empathy and understanding towards users, maintaining a consistent interaction style, and generating humor.
+* Optimizing model training for greater efficiency and precision.
+
+I have an active research record, with 34 papers submitted, including 22 as the first author and 15 already published. My work has been featured in top-tier conferences such as ACL, AAAI, and EMNLP. Beyond academia, I have applied for 48 national patents (40 as the first inventor), with 30 granted. My contributions have been recognized with multiple awards at international, national, and university levels. I have also gained valuable industry experience through internships at organizations like Microsoft Research Asia and ByteDance, etc. In these roles, I worked on projects involving lightweight training of language models, multimodal applications, and enhancing AI capabilities in e-commerce and social media platforms. In addition to my research and industry experience, I have served as a peer reviewer for several prestigious conferences, including ACL, EMNLP, NAACL, and COLING, etc. 
 
 My overarching goal is to develop intelligent, empathetic, and trustworthy AI systems that can effectively interact with humans and contribute positively across various vertical domains by integrating advancements in robotics, hardware, and specialized applications. [[CV]](/files/YYC.pdf)
 
@@ -105,12 +109,23 @@ My overarching goal is to develop intelligent, empathetic, and trustworthy AI sy
 
 ## Selected Patents
 
-
-* [2023] <strong>Yuyan Chen</strong>, Zhixu Li, Yanghua Xiao, Fang Guo. Persona Knowledge Graph, Persona Dialogue Dataset, and Persona Consistency Method. ZL202310348845.9.
+* [2024] <strong>Yuyan Chen</strong>, Yueze Li, Jiaqing Liang, Yanghua Xiao. Evaluation Device for Problem-Solving Capabilities under Incomplete Information for Large Language Models. ZL202410780036.X.       
+* [2024] <strong>Yuyan Chen</strong>, Yueze Li, Jiaqing Liang, Yanghua Xiao. Evaluation Device for Questioning Capabilities in Education for Large Language Models. ZL202410780038.9.       
+* [2024] <strong>Yuyan Chen</strong>, Yueze Li, Jiaqing Liang, Yanghua Xiao. Evaluation Device for Emotional Cognition Capabilities of Large Language Models. ZL202410780037.4.       
+* [2024] <strong>Yuyan Chen</strong>, Tinghao Shi, Zhixu Li, Yanghua Xiao. Method and Device for Generating Popular Comments on Videos for Multimodal Applications. ZL202410088250.9.      
+* [2023] <strong>Yuyan Chen</strong>, Zhixu Li, Yanghua Xiao, Ge Fan. Parameter-Efficient Adapter Tuning Method for Fine-Tuning Pre-trained Language Models. ZL202310400899.5.
+* [2023] <strong>Yuyan Chen</strong>, Zhixu Li, Yanghua Xiao, Fang Guo. Persona Knowledge Graph, Persona Dialogue Dataset, and Persona Consistency Method. ZL202310348845.9.       
 * [2023] <strong>Yuyan Chen</strong>, Zhixu Li, Jiaqing Liang, Yanghua Xiao. Method for Exploring Humor Understanding Capabilities of Pre-trained Language Models. ZL202310098163.7.
+* [2023] <strong>Yuyan Chen</strong>, Yanghua Xiao, Zhixu Li. Knowledge-Enhanced Document-Label Attention Method for Multi-Label Text Classification. ZL202310090342.6.
+* [2023] <strong>Yuyan Chen</strong>, Zhixu Li, Jiaqing Liang, Yanghua Xiao, Fang Guo. Adaptive Prompt Enhancement Method for Large-Scale Language Models. ZL202311195451.0.
+* [2023] <strong>Yuyan Chen</strong>, Zhixu Li, Jiaqing Liang, Yanghua Xiao, Fang Guo. Reliability Detection Method for Answers Generated by Large-Scale Language Models. ZL202311195452.5.
+* [2023] <strong>Yuyan Chen</strong>, Zhixu Li, Jiaqing Liang, Yanghua Xiao, Fang Guo. The Method to Enhance the Humorous Response Ability of Pre-trained Language Models for Advanced Machine Cognition. ZL202311195450.6.       
 * [2023] <strong>Yuyan Chen</strong>, Yanghua Xiao, Zhixu Li. High-Context Empathy Enhancement Response Generation Method and Device for Large Language Models. ZL202311856151.2.
-* [2023] <strong>Yuyan Chen</strong>, Yanghua Xiao, Zhixu Li. Solution Generation Method and Device for Nonlinear Reasoning Tasks. ZL202311856150.8.  
-* [2023] <strong>Yuyan Chen</strong>, Yanghua Xiao, Zhixu Li. Cross-Table Data Generation Method for the Medical Field. ZL202311856146.1.     
+* [2023] <strong>Yuyan Chen</strong>, Yanghua Xiao, Zhixu Li. Solution Generation Method and Device for Nonlinear Reasoning Tasks. ZL202311856150.8.
+* [2023] <strong>Yuyan Chen</strong>, Yanghua Xiao, Zhixu Li. Meme Caption Generation Method and Device with Adaptability to Sub-Image Quantities. ZL202311856147.6.     
+* [2023] <strong>Yuyan Chen</strong>, Yanghua Xiao, Tinghao Shi, Zhixu Li. Time-Aware Response Generation Method and Device for Medical Dialogues. ZL202311856149.5.     
+* [2023] <strong>Yuyan Chen</strong>, Yanghua Xiao, Zhixu Li. Cross-Table Data Generation Method for the Medical Field. ZL202311856146.1.       
+* [2022] <strong>Yuyan Chen</strong>, Zhixu Li, Cong Zhang, Jiaqing Liang, Yanghua Xiao. Method for Enhancing Humor Response Capability of Pre-trained Language Models for Higher-Order Machine Cognition. ZL202211239666.3.
 * [2017] <strong>Yuyan Chen</strong>, Chen Liu, Yanmin Liu. A nursing call device based on RFID. Patent No. 201620418967.6.
 * [2016] <strong>Yuyan Chen</strong>, Luosha Gu, Jin Xu, Shiwei Li, Shizhe Yu, Kun Zhang. An intelligent medical wastewater dosing device. Patent No. 201620702663.2.
 
