@@ -8,15 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell Medicine, USA. I received my Ph.D. in Computer Science from Fudan University in 2025. My research interests include <i>large language models, multimodal large models, natural language processing, question-answering systems, dialogue systems, knowledge graphs, emotion computing, and AI-based interdisciplinary research</i>. My work primarily involves three directions: Understanding user queries to deliver the most accurate and reliable answers with evidence; Demonstrating empathy and generating humor, maintaining a consistent style in conversations; Optimizing model training for greater efficiency and precision.
+I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell Medicine, USA. I received my Ph.D. in Computer Science from Fudan University in 2025. My research interests include <i>large language models, multimodal large models, natural language processing, question-answering systems, dialogue systems, knowledge graphs, emotion computing, and AI-based interdisciplinary research</i>. My work primarily involves three directions: i) Understanding user queries to deliver the most accurate and reliable answers with evidence; ii) Demonstrating empathy and generating humor, maintaining a consistent style in conversations; iii) Optimizing model training for greater efficiency and precision. [[CV]](/files/YYC_new.pdf)
 
 **Highlights**
-- 32 publications including 22 as first author in top venues across large language models, multimodal large language models, and question answering (QA).
-- Active academic service including over 100 peer reviews for major conferences and journals.
-- Innovation outputs including 49 patents filed, with 30 granted.
+- 32 publications including 22 as first author in top conferences across large language models and multimodal large models.
+- Active academic service including over 100 peer reviews for top conferences and journals.
+- Innovation outputs including 49 patents filed with 30 granted.
 - Industry experience at Microsoft Research Asia on parameter-efficient training of language models.
 
-[[CV]](/files/YYC_new.pdf)
+
 
 ---
 
@@ -68,9 +68,8 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 
 
 
----
+<!-- ---
 
 
 ## Professional Services
-
-Reviewer or PC member for over 100 submissions in top-tier conferences: AAAI, ACL, EMNLP, NAACL, COLING, CVPR, ICCV, ICLR, ICML, KDD, SIGIR, WSDM, ACM Multimedia.
+Reviewer or PC member for over 100 submissions in top-tier conferences: AAAI, ACL, EMNLP, NAACL, COLING, CVPR, ICCV, ICLR, ICML, KDD, SIGIR, WSDM, ACM Multimedia. -->

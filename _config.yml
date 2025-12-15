@@ -21,13 +21,13 @@ repository               : "Yukyin/Yukyin.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/cyy_new.jpg"
+  avatar           : "cyy_new.jpg"
   name             : "Yuyan Chen"
   pronouns         : # example: "she/her"  
   bio              : "Large Language Models, Multimodal Large Models, AI-based Healthcare."
   location         : "USA"
-  employer         : "Houston Methodist & Weill Cornell Medicine"
-  uri              : "https://yukyin.github.io/"
+  employer         : "Weill Cornell Medicine"
+  # uri              : "https://yukyin.github.io/"
   email            : "yolandachen0313@gmail.com" 
 
   # Academic websites
