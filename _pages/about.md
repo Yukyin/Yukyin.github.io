@@ -10,7 +10,7 @@ redirect_from:
 
 I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell Medicine, USA. I received my Ph.D. in Computer Science from Fudan University in 2025. My research interests include <i>large language models, multimodal large models, natural language processing, question-answering systems, dialogue systems, knowledge graphs, emotion computing, and AI-based interdisciplinary research</i>. My work primarily involves three directions: i) Understanding user queries to deliver the most accurate and reliable answers with evidence; ii) Demonstrating empathy and generating humor, maintaining a consistent style in conversations; iii) Optimizing model training for greater efficiency and precision. [[CV]](/files/YYC_new.pdf)
 
-**Highlights**
+<em>Highlights</em>
 - 32 publications including 22 as first author in top conferences across large language models and multimodal large models.
 - Active academic service including over 100 peer reviews for top conferences and journals.
 - Innovation outputs including 49 patents filed with 30 granted.
