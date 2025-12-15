@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yuyan Chen"
+title                    : "Yuyan (Yolanda) Chen"
 title_separator          : "-"
-name                     : &name "Yuyan Chen"
+name                     : &name "Yuyan (Yolanda) Chen"
 description              : &description "personal description"
 url                      : https://Yukyin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -27,14 +27,13 @@ author:
   bio              : "Large Language Models, Multimodal Large Models, AI-based Healthcare."
   location         : "USA"
   employer         : "Weill Cornell Medicine"
-  # uri              : "https://yukyin.github.io/"
   email            : "yolandachen0313@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=LNSE_VcAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/0000-0002-4381-486X"
+  # orcid            : "http://orcid.org/0000-0002-4381-486X"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
