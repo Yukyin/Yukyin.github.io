@@ -18,13 +18,13 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 
 
 
----
+
 
 ## News
 * [Dec 12, 2025] Released **MoodTrace Benchmark (v1.0)** — a longitudinal emotion dialogue benchmark scaffold. [[GitHub]](https://github.com/Yukyin/moodtrace-benchmark) [[Dataset]](https://huggingface.co/datasets/Yukyin/moodtrace-20d)
 <!-- Add new items here (keep ~3–8 most recent to avoid clutter). -->
 
----
+
 
 ## Representative Publications
 <em>Emotion Cognition and Understanding with Large Models</em>
@@ -47,7 +47,7 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 
 
 
----
+
 ## Representative Patents
 * [2024] <strong>Yuyan Chen</strong>, Yueze Li, Jiaqing Liang, Yanghua Xiao. Evaluation Device for Questioning Capabilities in Education for Large Language Models. ZL202410780038.9.
 * [2024] <strong>Yuyan Chen</strong>, Yueze Li, Jiaqing Liang, Yanghua Xiao. Evaluation Device for Emotional Cognition Capabilities of Large Language Models. ZL202410780037.4.
@@ -56,7 +56,7 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 * [2023] <strong>Yuyan Chen</strong>, Zhixu Li, Jiaqing Liang, Yanghua Xiao. Method for Exploring Humor Understanding Capabilities of Pre-trained Language Models. ZL202310098163.7.
 
 
----
+
 
 ## Representative Honors and Awards
 * Global Top 20 for Baidu Scholarship
