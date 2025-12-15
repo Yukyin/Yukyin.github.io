@@ -10,7 +10,7 @@ redirect_from:
 
 I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell Medicine, USA. I received my Ph.D. in Computer Science from Fudan University in 2025. My research interests include <i>large language models, multimodal large models, natural language processing, question-answering systems, dialogue systems, knowledge graphs, emotion computing, and AI-based interdisciplinary research</i>. My work primarily involves three directions: Understanding user queries and providing explanations and reasoning based on existing contexts to deliver the most relevant and reliable answers; Demonstrating empathy and understanding towards users, maintaining a consistent interaction style, and generating humor; Optimizing model training for greater efficiency and precision.
 
-**Selected highlights**
+**Highlights**
 - 32 publications including 22 as first author in top venues across large language models, multimodal large language models, and question answering (QA).
 - Active academic service including over 100 peer reviews for major conferences and journals.
 - Innovation outputs including 49 patents filed, with 30 granted.
@@ -26,7 +26,7 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 
 ---
 
-## Publications (Selected)
+## Representative Publications
 <em>Emotion Cognition and Understanding with Large Models</em>
 
 * [2025] <strong>Yuyan Chen</strong>, Yifan Jiang, Li Zhou, Jinghan Cao, Yu Guan, Ming Yang, Qingpei Guo. Engage for All: Making Ordinary Image Descriptions Appealing Again! <i>Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV). 2025.</i> [[pdf]](https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_Engage_for_All_Making_Ordinary_Image_Descriptions_Appealing_Again_ICCV_2025_paper.pdf) [[bib]](/files/Engage.bib)
@@ -48,7 +48,7 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 
 
 ---
-## Patents (Selected)
+## Representative Patents
 * [2024] <strong>Yuyan Chen</strong>, Yueze Li, Jiaqing Liang, Yanghua Xiao. Evaluation Device for Questioning Capabilities in Education for Large Language Models. ZL202410780038.9.
 * [2024] <strong>Yuyan Chen</strong>, Yueze Li, Jiaqing Liang, Yanghua Xiao. Evaluation Device for Emotional Cognition Capabilities of Large Language Models. ZL202410780037.4.
 * [2024] <strong>Yuyan Chen</strong>, Yueze Li, Jiaqing Liang, Yanghua Xiao. Evaluation Device for Problem-Solving Capabilities under Incomplete Information for Large Language Models. ZL202410780036.X.
@@ -58,7 +58,7 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 
 ---
 
-## Honors and Awards (Selected)
+## Representative Honors and Awards
 * Global Top 20 for Baidu Scholarship
 * Ph.D National Scholarship
 * Tencent Corporate Named Scholarship
@@ -71,6 +71,6 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 ---
 
 
-## Professional Services (Selected)
+## Professional Services
 
-Reviewer / PC member for over 100 submissions in top-tier conferences: AAAI, ACL, EMNLP, NAACL, COLING, CVPR, ICCV, ICLR, ICML, KDD, SIGIR, WSDM, ACM Multimedia.
+Reviewer or PC member for over 100 submissions in top-tier conferences: AAAI, ACL, EMNLP, NAACL, COLING, CVPR, ICCV, ICLR, ICML, KDD, SIGIR, WSDM, ACM Multimedia.
