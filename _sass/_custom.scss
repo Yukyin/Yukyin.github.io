@@ -1,0 +1,15 @@
+/* 统一侧边栏 Profile 中图标和文字的对齐方式 */
+.author__urls li {
+  display: flex;
+  align-items: center;   /* 垂直居中对齐 icon 和文字 */
+}
+
+/* 统一图标宽度，让所有行的文字起始位置对齐 */
+.author__urls li > i {
+  width: 1.25em;         /* 可根据效果微调，比如 1.2em / 1.3em */
+}
+
+/* 缩小两组列表之间的间距，让看起来像一整块信息 */
+.author__content > .author__urls + .author__urls {
+  margin-top: 0.25rem;   /* 默认为更大，可以根据效果调小/调大 */
+}
