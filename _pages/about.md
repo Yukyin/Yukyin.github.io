@@ -21,8 +21,11 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 
 
 ## News
-🧠 <em>[Dec 12, 2025] Released **MoodTrace Benchmark (v1.0)** — a longitudinal emotion dialogue benchmark scaffold. [[GitHub]](https://github.com/Yukyin/moodtrace-benchmark) [[Dataset]](https://huggingface.co/datasets/Yukyin/moodtrace-20d)</em>
+🧊 <em>[Dec 16, 2025] Released **3D↔2D Toolkit (v1.0)** — a generic 3D↔2D slicing and multiview fusion pipeline. [[GitHub]](https://github.com/Yukyin/2d3d_toolkit) [[Release]](https://github.com/Yukyin/2d3d_toolkit/releases/tag/v1.0)</em>  
+🎭 <em>[Dec 12, 2025] Released **MoodTrace Benchmark (v1.0)** — a longitudinal emotion dialogue benchmark scaffold. [[GitHub]](https://github.com/Yukyin/moodtrace-benchmark) [[Dataset]](https://huggingface.co/datasets/Yukyin/moodtrace-20d)</em>  
+
 <!-- Add new items here (keep ~3–8 most recent to avoid clutter). -->
+
 
 
 
