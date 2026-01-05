@@ -21,11 +21,11 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 
 
 ## News
-❤️‍🩹 <em>[Jan 04, 2026] Introduced another mode of DeepSupport: DeepSupport Warm — an emotional-holding companion, and released the Warm LoRA adapter. [[GitHub]](https://github.com/Yukyin/DeepSupport/tree/main/DeepSupport_Warm) [[Model]](https://huggingface.co/Yukyin/deepsupport-warm-lora-oss)</em>
-🧑‍🏫 <em>[Dec 23, 2025] Proposed DeepSupport and released its first mode: DeepSupport Coach — a problem-clarification and action-planning companion. [[GitHub]](https://github.com/Yukyin/DeepSupport/tree/main/DeepSupport_Coach)</em>
-🔍 <em>[Dec 18, 2025] Released **mmqlint** — a lightweight quality gate for LLM and VLM training and inference datasets. [[GitHub]](https://github.com/Yukyin/mmqlint)</em>  
-🧊 <em>[Dec 16, 2025] Released **3D↔2D Toolkit (v1.0)** — a generic 3D↔2D slicing and multiview fusion pipeline. [[GitHub]](https://github.com/Yukyin/2d3d_toolkit) [[Release]](https://github.com/Yukyin/2d3d_toolkit/releases/tag/v1.0)</em>  
-🎭 <em>[Dec 12, 2025] Released **MoodTrace Benchmark (v1.0)** — a longitudinal emotion dialogue benchmark scaffold. [[GitHub]](https://github.com/Yukyin/moodtrace-benchmark) [[Dataset]](https://huggingface.co/datasets/Yukyin/moodtrace-20d)</em>  
+❤️‍🩹 <em>[Jan 04, 2026] Introduced another mode of DeepSupport: DeepSupport Warm — an emotional-holding companion, and released the Warm LoRA adapter. [[Code]](https://github.com/Yukyin/DeepSupport/tree/main/DeepSupport_Warm) [[Model]](https://huggingface.co/Yukyin/deepsupport-warm-lora-oss)</em>  
+🧑‍🏫 <em>[Dec 23, 2025] Proposed DeepSupport and released its first mode: DeepSupport Coach — a problem-clarification and action-planning companion. [[Code]](https://github.com/Yukyin/DeepSupport/tree/main/DeepSupport_Coach)</em>  
+🔍 <em>[Dec 18, 2025] Released **mmqlint** — a lightweight quality gate for LLM and VLM training and inference datasets. [[Code]](https://github.com/Yukyin/mmqlint)</em>  
+🧊 <em>[Dec 16, 2025] Released **3D↔2D Toolkit (v1.0)** — a generic 3D↔2D slicing and multiview fusion pipeline. [[Code]](https://github.com/Yukyin/2d3d_toolkit)</em>  
+🎭 <em>[Dec 12, 2025] Released **MoodTrace Benchmark (v1.0)** — a longitudinal emotion dialogue benchmark scaffold. [[Code]](https://github.com/Yukyin/moodtrace-benchmark) [[Dataset]](https://huggingface.co/datasets/Yukyin/moodtrace-20d)</em>  
 
 <!-- Add new items here (keep ~3–8 most recent to avoid clutter). -->
 
