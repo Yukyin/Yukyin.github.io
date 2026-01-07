@@ -22,6 +22,7 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 
 
 ## News
+💼 <em>[Jan 07, 2026] Launched **ProAdvisor** and **VerbalValue** demos — my independent entrepreneurial projects. Welcome to connect and collaborate! [[ProAdvisor]](/projects/proadvisor/) [[VerbalValue]](/projects/verbalvalue/)</em>
 🐩 <em>[Jan 05, 2026] Released **GPU Watchdog** — a tiny HPC-friendly GPU usage watcher with email alerts. [[Code]](https://github.com/Yukyin/gpu-watchdog)</em>  
 ❤️‍🩹 <em>[Jan 04, 2026] Introduced another mode of DeepSupport: **DeepSupport Warm** — an emotional-holding companion, and released the Warm LoRA adapter. [[Code]](https://github.com/Yukyin/DeepSupport/tree/main/DeepSupport_Warm) [[Model]](https://huggingface.co/Yukyin/deepsupport-warm-lora-oss)</em>  
 🧑‍🏫 <em>[Dec 23, 2025] Proposed **DeepSupport** and released its first mode: **DeepSupport Coach** — a problem-clarification and action-planning companion. [[Code]](https://github.com/Yukyin/DeepSupport/tree/main/DeepSupport_Coach)</em>  
