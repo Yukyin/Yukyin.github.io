@@ -79,14 +79,14 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 ## Projects
 
 <div style="display:flex; gap:28px; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin: 1.25rem 0 0.25rem;">
-  <a href="/projects/verbalvalue/" style="text-decoration:none; text-align:center;">
-    <img src="/assets/verbalvalue/gengwang-logo.png" alt="VerbalValue logo" style="height:76px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
-    <div style="margin-top:0.5rem; font-weight:700;">VerbalValue</div>
-  </a>
-
   <a href="/projects/proadvisor/" style="text-decoration:none; text-align:center;">
     <img src="/assets/proadvisor/zhuanwen-logo.png" alt="ProAdvisor logo" style="height:76px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
     <div style="margin-top:0.5rem; font-weight:700;">ProAdvisor</div>
+  </a>
+
+   <a href="/projects/verbalvalue/" style="text-decoration:none; text-align:center;">
+    <img src="/assets/verbalvalue/gengwang-logo.png" alt="VerbalValue logo" style="height:76px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
+    <div style="margin-top:0.5rem; font-weight:700;">VerbalValue</div>
   </a>
 </div>
 
