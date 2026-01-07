@@ -15,7 +15,6 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 - Active academic service including over 100 peer reviews for top conferences and journals.
 - Innovation outputs including 49 patents filed with 30 granted.
 - Industry experience at Microsoft Research Asia on parameter-efficient training of language models.
-- Founded two AI-driven consultation systems, ProAdvisor and VerbalValue, and built the AI-powered emotional companion platform DeepSupport.
 
 
 
@@ -72,9 +71,9 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 * Tencent Corporate Named Scholarship
 * Outstanding Graduate
 * Campus Academic Star
-* Campus Entrepreneurship Star 
+* Campus Entrepreneurship Star
 
-
+---
 
 ## Projects
 
@@ -89,6 +88,7 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
     <div style="margin-top:0.5rem; font-weight:700;">ProAdvisor</div>
   </a>
 </div>
+
 
 
 <!-- ---

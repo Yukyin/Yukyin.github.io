@@ -93,11 +93,11 @@ classes: wide product-page
 
 ---
 
-![直播间整体界面](assets/verbalvalue/shot-room-overview.png)
+![直播间整体界面](/assets/verbalvalue/shot-room-overview.png)
 
 > 图1：观众进入直播间时看到的整体画面，包含虚拟主播、产品展示区和弹幕区。
 
-![主播自动口播与产品信息](assets/verbalvalue/shot-auto-pitch.png)
+![主播自动口播与产品信息](/assets/verbalvalue/shot-auto-pitch.png)
 
 > 图2：虚拟主播自动口播产品信息，同时展示产品名称、功效和使用方式。
 
@@ -132,7 +132,7 @@ classes: wide product-page
 
 ---
 
-![多粉丝弹幕互动示意](assets/verbalvalue/shot-chat-multiuser.png)
+![多粉丝弹幕互动示意](/assets/verbalvalue/shot-chat-multiuser.png)
 
 > 图3：不同昵称的粉丝轮流发言，弹幕区持续滚动，模拟真实直播间热度。
 
@@ -157,11 +157,11 @@ classes: wide product-page
 > 通过口播与问答两个模式的自动切换，  
 > **整个直播间可以长时间无人值守，却不会冷场或“尬停”。**
 
-![根据问题进行产品推荐](assets/verbalvalue/shot-product-reco.png)
+![根据问题进行产品推荐](/assets/verbalvalue/shot-product-reco.png)
 
 > 图4：粉丝提问后，主播在回答中明确推荐某个具体产品，并在画面中突出展示。
 
-![生活聊天中自然带货的回答示意](assets/verbalvalue/shot-life-chat.png)
+![生活聊天中自然带货的回答示意](/assets/verbalvalue/shot-life-chat.png)
 
 > 图5：粉丝聊生活话题时，主播以轻松语气回应，并在回答中自然带出相关产品钩子。
 

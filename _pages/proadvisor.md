@@ -240,14 +240,9 @@ classes: wide product-page
 ```markdown
 ### Demo 演示
 
-- 🎥 院外版 Demo（占位）：  
+- 🎥 院外版 Demo：  
 
-- 🎥 院内版 Demo（占位）：  
-```
 
-> 建议：可以把视频上传到国内/海外都方便访问的平台（例如：B 站 + YouTube / Google Drive + OneDrive），然后分别填进去。
-
----
 
 <div style="margin: 0.75rem 0 1.25rem;">
   <div style="font-weight:700; margin: 0.25rem 0 0.5rem;">院外版 Demo</div>
@@ -257,6 +252,12 @@ classes: wide product-page
   </video>
 </div>
 
+
+- 🎥 院内版 Demo：  
+
+
+
+
 <div style="margin: 0.75rem 0 0.5rem;">
   <div style="font-weight:700; margin: 0.25rem 0 0.5rem;">院内版 Demo</div>
   <video controls playsinline preload="metadata" style="width:100%; max-width: 980px; border-radius: 14px;">
@@ -265,7 +266,7 @@ classes: wide product-page
   </video>
 </div>
 
-## 5. 技术架构（高层）
+## 5. 技术架构
 
 在技术上，专问更像是一个**“流程引擎 + 大模型 + 行业知识库”的组合**，而不是单一的聊天模型。
 
@@ -293,7 +294,7 @@ classes: wide product-page
 
 ---
 
-## 6. 商业化与运营思路（简要）
+## 6. 商业化与运营思路
 
 ### 6.1 面向谁？
 
@@ -301,7 +302,7 @@ classes: wide product-page
 - 有一定品牌和服务能力、希望提升咨询转化与用户体验的机构  
 - 有意愿做流程标准化与数字化沉淀的连锁 / 集团
 
-### 6.2 收费模式（候选方向）
+### 6.2 收费模式
 
 > 以下为探索中的方向，实际合作可根据机构情况定制。
 
@@ -350,7 +351,7 @@ classes: wide product-page
 
 ---
 
-## 8. 联系方式 / About
+## 8. 联系方式
 
 如果你是：
 
@@ -360,5 +361,5 @@ classes: wide product-page
 
 欢迎联系我，一起讨论可能性。
 
-- 个人主页（英文）/ Personal site (EN)：<https://yukyin.github.io/>  
-- （你可以在这里加入你愿意公开的邮箱 / 微信等联系方式）
+- 个人主页：<https://yukyin.github.io/>  
+- 邮箱：<yolandachen0313@gmail.com>
