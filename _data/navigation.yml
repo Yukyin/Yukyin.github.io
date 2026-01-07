@@ -25,3 +25,10 @@
     
   # - title: "Guide"
   #   url: /markdown/
+
+  main:
+  - title: "VerbalValue"
+    url: /projects/verbalvalue/
+  - title: "ProAdvisor"
+    url: /projects/proadvisor/
+
