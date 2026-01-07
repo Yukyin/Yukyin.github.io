@@ -26,9 +26,9 @@
   # - title: "Guide"
   #   url: /markdown/
 
-  main:
-  - title: "ProAdvisor"
-    url: /projects/proadvisor/
-  - title: "VerbalValue"
-    url: /projects/verbalvalue/
+  # main:
+  # - title: "ProAdvisor"
+  #   url: /projects/proadvisor/
+  # - title: "VerbalValue"
+  #   url: /projects/verbalvalue/
 
