@@ -92,7 +92,7 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
   <a href="https://github.com/Yukyin/DeepSupport" target="_blank" rel="noopener noreferrer"
     style="text-decoration:none; text-align:center;">
     <img src="/assets/deepsupport/deepsupport-logo.png" alt="DeepSupport logo"
-       style="height:76px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
+       style="height:60px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
     <div style="margin-top:0.5rem; font-weight:700;">DeepSupport</div>
   </a>
 
