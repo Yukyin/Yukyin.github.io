@@ -34,7 +34,7 @@ classes: wide product-page
 </style>
 
 <div class="vv-hero">
-  <img class="vv-logo" src="/assets/verbalvalue/logo.png" alt="VerbalValue logo" />
+  <img class="vv-logo" src="/assets/verbalvalue/gengwang-logo.png" alt="VerbalValue logo" />
   <div class="vv-name">VerbalValue（言值引擎）</div>
   <div class="vv-tagline">不会冷场的 AI 直播带货主播</div>
 </div>
