@@ -332,7 +332,7 @@ classes: wide product-page
 
 ---
 
-## 8. 联系方式 / About
+## 8. 联系方式
 
 如果你是：
 
@@ -342,5 +342,5 @@ classes: wide product-page
 
 欢迎联系，一起聊聊 VerbalValue 可以落地在哪些具体场景里。
 
-- 个人主页 / Personal site：<https://yukyin.github.io/>  
-- （你可以在这里加入愿意公开的邮箱 / 微信等联系方式）
+- 个人主页：<https://yukyin.github.io/>  
+- 邮箱：<yolandachen0313@gmail.com>
