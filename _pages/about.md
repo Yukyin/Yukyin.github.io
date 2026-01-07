@@ -76,7 +76,7 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
 
 
 
-## Projects
+## Systems and Platforms
 
 <div style="display:flex; gap:28px; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin: 1.25rem 0 0.25rem;">
   <a href="/projects/proadvisor/" style="text-decoration:none; text-align:center;">
@@ -88,6 +88,14 @@ I am a Postdoctoral Fellow in Bioinformatics, Houston Methodist, Weill Cornell M
     <img src="/assets/verbalvalue/gengwang-logo.png" alt="VerbalValue logo" style="height:76px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
     <div style="margin-top:0.5rem; font-weight:700;">VerbalValue</div>
   </a>
+
+  <a href="https://github.com/Yukyin/DeepSupport" target="_blank" rel="noopener noreferrer"
+    style="text-decoration:none; text-align:center;">
+    <img src="/assets/deepsupport/deepsupport-logo.png" alt="DeepSupport logo"
+       style="height:76px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
+    <div style="margin-top:0.5rem; font-weight:700;">DeepSupport</div>
+  </a>
+
 </div>
 
 
