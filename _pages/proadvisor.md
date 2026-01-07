@@ -34,7 +34,7 @@ classes: wide product-page
 </style>
 
 <div class="vv-hero">
-  <img class="vv-logo" src="/assets/proadvisor/logo.png" alt="ProAdvisor logo" />
+  <img class="vv-logo" src="/assets/proadvisor/zhuanwen-logo.png" alt="ProAdvisor logo" />
   <div class="vv-name">ProAdvisor（专问）</div>
   <div class="vv-tagline">AI 医美咨询顾问</div>
 </div>
