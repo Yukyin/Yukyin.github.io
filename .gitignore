@@ -13,3 +13,7 @@ node_modules
 package-lock.json
 # large videos
 assets/**/videos/*.mp4
+
+# large videos (do not commit)
+assets/**/videos/*.mp4
+*.mp4
