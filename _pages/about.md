@@ -86,7 +86,7 @@ I ask what capabilities enable models to operate in the world and create real va
 
 
 
-## Systems and Platforms
+## Modelslive Star Products
 
 <div style="display:flex; gap:28px; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin: 1.25rem 0 0.25rem;">
   <a href="/projects/proadvisor-en/" style="text-decoration:none; text-align:center;">
@@ -94,20 +94,19 @@ I ask what capabilities enable models to operate in the world and create real va
     <div style="margin-top:0.5rem; font-weight:700;">ProAdvisor</div>
   </a>
 
-   <a href="/projects/verbalvalue-en/" style="text-decoration:none; text-align:center;">
+  <a href="/projects/verbalvalue-en/" style="text-decoration:none; text-align:center;">
     <img src="/assets/verbalvalue/gengwang-logo.png" alt="VerbalValue logo" style="height:76px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
     <div style="margin-top:0.5rem; font-weight:700;">VerbalValue</div>
   </a>
 
-  <a href="/projects/ekova-en/" style="text-decoration:none; text-align:center;">
-  <div style="height:76px; display:flex; align-items:center; justify-content:center;">
-    <img src="/assets/ekova/ekova-logo.png" alt="Ekova logo"
-         style="height:55px; width:auto; border-radius:14px; display:block;" />
-  </div>
-  <div style="margin-top:0.5rem; font-weight:700;">Ekova</div>
-</a>
-
-
+  <a href="/projects/ekova-en/" style="text-decoration:none; text-align:center; margin-left:14px;">
+    <div style="height:76px; display:flex; align-items:center; justify-content:center;">
+      <img src="/assets/ekova/ekova-logo.png" alt="Ekova logo"
+           style="height:50px; width:auto; border-radius:14px; display:block;" />
+    </div>
+    <div style="margin-top:0.5rem; font-weight:700;">Ekova</div>
+  </a>
+  
 </div>
 
 
