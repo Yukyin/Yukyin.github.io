@@ -19,12 +19,12 @@ I ask what capabilities enable models to operate in the world and create real va
 - Active academic service including over 100 peer reviews for top conferences and journals.
 - Innovation outputs including 49 patents filed with 30 granted.
 - Industry experience at Microsoft Research Asia, TikTok.
-- Founded two AI-driven consultation systems, ProAdvisor and VerbalValue, and built the AI-powered emotional companion platform DeepSupport.
+- Founded ModelsLive Inc. with three star products: ProAdvisor, VerbalValue, and Ekova.
 
 
 ## News
-💬 <em>[Jun 16, 2026] Launched **Ekova** — the five DeepSupport personas evolve into a unified AI companion with adaptive routing and cross-session memory. The friend who always gets you. [[Ekova]](/projects/ekova-en/)</em>  
-🏢 <em>[Jun 12, 2026] Founded **ModelsLive Inc.** — a Delaware C-Corp and the company home for ProAdvisor, VerbalValue, and Ekova. A milestone on the path from research to product. [[ModelsLive]](https://modelslive.org)</em>  
+💬 <em>[Jun 16, 2026] Launched **Ekova** — the five DeepSupport personas evolve into a smart friend who always gets you. [[Ekova]](/projects/ekova-en/)</em>  
+🏢 <em>[Jun 12, 2026] Founded **ModelsLive Inc.** — a milestone on the path from research to product! [[ModelsLive]](https://modelslive.org)</em>  
 🧬 <em>[Apr 20, 2026] Released **DeltaMap** — a paired scRNA-seq pipeline that constructs immune-state evidence representations from longitudinal delta signals. [[Code]](https://github.com/Yukyin/deltamap)</em>  
 🔐 <em>[Apr 12, 2026] Released **GateKeeper** — a cryptographic access control layer for AI agents. Agents operate on opaque object IDs instead of real filesystem paths. [[Code]](https://github.com/Yukyin/gatekeeper)</em>  
 🧬 <em>[Apr 8, 2026] Released **CUT&Tag Agent** — an AI-powered epigenomic pipeline assistant that converts CUT&Tag tutorials into interactive agentic workflows. [[Code]](https://github.com/Yukyin/cuttag-agent) [[Demo]](https://drive.google.com/file/d/19rU1KYLlXunBvZUn90XhOp6QbaWI0UFG/view)</em>  
@@ -32,7 +32,7 @@ I ask what capabilities enable models to operate in the world and create real va
 💬 <em>[Feb 19, 2026] Launched **MischiefClub** demo — a cathartic, role-based venting interface with reality-blocking guardrails. [[Code]](https://github.com/Yukyin/MischiefClub) [[Demo]](https://yukyin.github.io/MischiefClub/demo/mischiefclub_en.html)</em>  
 🔐 <em>[Feb 18, 2026] Released **PolitePoison** — a real-world implicit toxicity dialogue dataset for detecting polite but harmful utterances. [[Dataset]](https://huggingface.co/datasets/Yukyin/polite-poison)</em>  
 💬 <em>[Feb 18, 2026] Introduced three new DeepSupport personas: **Tsukkomi**, **Real**, and **Gonzo**, and provided runnable examples. [[Tsukkomi]](https://github.com/Yukyin/DeepSupport/blob/main/DeepSupport_Tsukkomi/EXAMPLES.md) [[Real]](https://github.com/Yukyin/DeepSupport/blob/main/DeepSupport_Real/EXAMPLES.md)  [[Gonzo]](https://github.com/Yukyin/DeepSupport/blob/main/DeepSupport_Gonzo/EXAMPLES.md)</em>  
-💼 <em>[Jan 07, 2026] Launched **ProAdvisor** and **VerbalValue** demos — my entrepreneurial projects. Welcome to connect and collaborate! [[ProAdvisor]](/projects/proadvisor/) [[VerbalValue]](/projects/verbalvalue/)</em>  
+💼 <em>[Jan 07, 2026] Launched **ProAdvisor** and **VerbalValue** demos — my entrepreneurial projects. Welcome to connect and collaborate! [[ProAdvisor]](/projects/proadvisor-en/) [[VerbalValue]](/projects/verbalvalue-en/)</em>  
 🔐 <em>[Jan 05, 2026] Released **GPU Watchdog** — a tiny HPC-friendly GPU usage watcher with email alerts. [[Code]](https://github.com/Yukyin/gpu-watchdog)</em>  
 💬 <em>[Jan 04, 2026] Introduced another mode of DeepSupport: **DeepSupport Warm** — an emotional-holding companion, and released the Warm LoRA adapter. [[Warm]](https://github.com/Yukyin/DeepSupport/tree/main/DeepSupport_Warm) [[Model]](https://huggingface.co/Yukyin/deepsupport-warm-lora-oss)</em>  
 💬 <em>[Dec 23, 2025] Proposed **DeepSupport** and released its first mode: **DeepSupport Coach** — a problem-clarification and action-planning companion. [[Code]](https://github.com/Yukyin/DeepSupport) [[Coach]](https://github.com/Yukyin/DeepSupport/tree/main/DeepSupport_Coach)</em>  
@@ -102,7 +102,7 @@ I ask what capabilities enable models to operate in the world and create real va
   <a href="/projects/ekova-en/" style="text-decoration:none; text-align:center;">
   <div style="height:76px; display:flex; align-items:center; justify-content:center;">
     <img src="/assets/ekova/ekova-logo.png" alt="Ekova logo"
-         style="height:62px; width:auto; border-radius:14px; display:block;" />
+         style="height:55px; width:auto; border-radius:14px; display:block;" />
   </div>
   <div style="margin-top:0.5rem; font-weight:700;">Ekova</div>
 </a>
