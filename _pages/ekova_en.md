@@ -229,11 +229,11 @@ h1.page__title{
 
 > ### 📌 Summary
 >
-> Ekova (奕可) is a multi-model AI companion for users who want a single friend that truly knows them, not a rotating cast of tools they have to re-introduce themselves to every session.
+> Ekova is a multi-model AI companion built around one idea: the friend who always gets you. Five distinct support personas adapt to whatever the moment calls for, while a unified memory layer carries everything the user has shared forward across every session and every mode switch.
 >
-> - Five functionally distinct support personas, Coach, Warm, Tsukkomi, Real, and Gonzo, backed by the DeepSupport research system trained on the DSD dataset of 8,590 real longitudinal samples.
-> - Dynamic model routing selects the right backend (GPT, Claude, Gemini, DeepSeek, and others) for each conversational moment; users experience one coherent companion across all contexts.
-> - A unified cross-session memory layer means users disclose context once and carry it forward into every persona, every model switch, and every new conversation.
+> - Five support personas, Coach, Warm, Tsukkomi, Real, and Gonzo, each covering a functionally distinct conversational need, from emotional holding to structured action planning.
+> - Dynamic routing selects the most suitable model and persona in real time. Users experience one coherent companion regardless of which backend is running.
+> - Say it once, be understood everywhere. Prior context follows the user across persona switches, model changes, and new sessions with no re-introduction required.
 
 
 {::nomarkdown}
@@ -284,9 +284,9 @@ h1.page__title{
 
 Ekova is a **multi-model AI companion** that gives users one coherent "friend" backed by the best available foundation models. It routes each conversational moment to the most suitable model and persona combination, not by static configuration, but by reading the actual context in real time. Behind the single interface, Ekova runs GPT, Claude, Gemini, DeepSeek, and other mature models as interchangeable backends, while surfacing only one continuous identity to the user.
 
-The core product promise is simple: **say it once, be understood everywhere.** A unified memory layer stores everything the user has disclosed across all sessions and all persona modes. When the routing engine switches from Warm to Coach, or from DeepSeek to GPT, it carries that entire history forward. The user never re-introduces themselves.
+The core product promise is simple: say it once, be understood everywhere. A unified memory layer stores everything the user has disclosed across all sessions and all persona modes. When the routing engine switches from one persona or backend to another, it carries that entire history forward. The user never re-introduces themselves.
 
-Its personality system is grounded in the **Personality Support (PS) paradigm**, a research direction distinct from Emotional Support (ES). Where ES targets momentary affect regulation, PS targets durable cognitive clarity: helping users articulate the structure of a problem they are struggling to name, recognize behavioral patterns, and develop their own value judgments rather than borrowing positions from an authority. The five Ekova personas operationalize this paradigm through functionally independent conversational mechanisms.
+Ekova's personality system is grounded in research: five distinct support personas, each designed to do something no other can fully replace. The goal is not to make users feel better in the moment, but to help them understand themselves better over time.
 
 ### 1.1 Why existing models fall short {#sec-1-1-positioning}
 
@@ -296,8 +296,7 @@ Each major foundation model has a characteristic blind spot as a companion:
 - **DeepSeek**: over-mothering, reflexively responds with "you've been through so much," which feels patronizing in many contexts
 - **GPT**: pure tool with no warmth, like talking to a customer service bot
 - **Claude**: compulsive redirector, always trying to pull the conversation back to a "main topic"
-- **All models**: system instruction drift, persona consistency degrades across long sessions
-- **All models**: no cross-session memory, every model switch starts from zero
+- **All models**: persona consistency degrades across long sessions, and every model switch starts from zero with no shared memory
 
 Ekova addresses all of these through routing, buffering, and memory rather than by betting on a single model.
 
@@ -320,14 +319,7 @@ Each persona is a minimal functional unit grounded in the Personality Support fr
 
 ### 2.1 Context-aware model routing {#sec-2-1-routing}
 
-Routing is dynamic, not a static weight assignment. The system first responds with a neutral, gentle acknowledgment to receive the user, then lightly probes for context before committing to a routing decision. Once the conversational situation is clear, it selects both the persona and the backend model:
-
-- User emotionally low or facing difficulty → **Warm** persona (DeepSeek backend)
-- User needs detailed planning or analysis → **Coach** persona (GPT backend)
-- User exploring new ideas or seeking deep reframes → **Gonzo / Real** persona (Gemini backend)
-- User needs to be called out or challenged with irony → **Tsukkomi** persona
-
-Probing before routing produces significantly more accurate decisions than immediate inference from the first message.
+Routing is dynamic, not a static weight assignment. The system first responds with a neutral acknowledgment to receive the user, then lightly probes for context before committing to a routing decision. Once the situation is clear, it selects the most suitable persona and backend model for that moment. Probing before routing produces significantly more accurate decisions than immediate inference from the first message.
 
 ### 2.2 Transition buffer layer {#sec-2-2-buffer}
 
@@ -341,13 +333,7 @@ This design makes memory the core retention mechanism. The more context a user h
 
 ### 2.4 Research backing {#sec-2-4-research}
 
-Ekova's persona system is operationalized in the academic paper **"Ekova: A Personality-Support Agent for Self-Discovery Dialogue"** (submitted to COLM 2026). The underlying research introduces three layers:
-
-- **DSD (Self-Discovery Dataset)**: 8,590 Chinese samples across five style-specific subsets, collected through real longitudinal interaction. It is the only known dataset with five functionally distinct support styles targeting self-knowledge rather than clinical distress.
-- **DeepSupport + OrthoTune**: a multi-persona training framework with per-style LoRA adapters and a style-consistency regularizer. OrthoTune-trained models achieve a 16.3% relative gain over the strongest prompt-based baseline across all metrics.
-- **Ekova agent layer**: the five trained personas unified into a persistent agent with cross-session memory and adaptive routing, surfaced as both an automatic routing mode and a user-selectable persona mode.
-
-The five-persona structure is validated empirically: a 63-percentage-point gap between diagonal and off-diagonal style accuracy in cross-style evaluation confirms that each persona occupies a functionally non-replicable position.
+Ekova's persona system is grounded in peer-reviewed research. The underlying work, submitted to COLM 2026 as **"Ekova: A Personality-Support Agent for Self-Discovery Dialogue"**, establishes the five-persona structure through a purpose-built training framework and a real longitudinal interaction dataset. Each persona is validated as functionally distinct: no two are substitutable, and the system is designed so that removing any one of them would meaningfully reduce what the companion can offer. This gives Ekova's multi-persona design an interpretable, research-backed foundation rather than ad-hoc style tuning.
 
 
 ## 🎥 3. Interface showcase {#sec-3-demo}
@@ -370,18 +356,11 @@ The five-persona structure is validated empirically: a 63-percentage-point gap b
       alt="Ekova persona selection interface, all five personas"
       style="width:100%; height:auto; display:inline-block;" />
   <div class="ek-caption" style="margin-top:0.35rem;">
-    <em>Fig 2: Customized persona selection interface. Users choose a support style and view the corresponding reference response. The same user input — a failed delivery — yields five structurally distinct responses: emotional holding (Warm), ironic distance (Tsukkomi), factual reframing (Real), analogical reframing via "paid DLC" (Gonzo), and a three-step resolution plan (Coach).</em>
+    <em>Fig 2: Customized persona selection interface. Users choose a support style and view the corresponding reference response. The same user input about a failed delivery yields five structurally distinct responses: emotional holding (Warm), ironic distance (Tsukkomi), factual reframing (Real), analogical reframing via "paid DLC" (Gonzo), and a three-step resolution plan (Coach).</em>
   </div>
 </div>
 
-<div style="text-align:center; margin: 0.25rem 0 0.9rem;">
-  <img src="/assets/ekova/ekova_framework.pdf"
-      alt="Ekova three-layer construction: DSD to DeepSupport to Ekova agent"
-      style="width:100%; height:auto; display:inline-block;" />
-  <div class="ek-caption" style="margin-top:0.35rem;">
-    <em>Fig 3: Three-layer construction. Top: DSD dataset pipeline. Middle: DeepSupport persona training via OrthoTune. Bottom: Ekova persistent agent with cross-session memory and adaptive routing.</em>
-  </div>
-</div>
+
 
 
 ## ✨ 4. Core capabilities {#sec-4-capabilities}
@@ -393,15 +372,9 @@ The five-persona structure is validated empirically: a 63-percentage-point gap b
 - **Depth over time**: self-knowledge compounds. As users disclose more, Ekova builds a more accurate model of their patterns, constraints, and recurring situations, improving routing precision and response relevance with each session.
 - **No forced positivity**: Ekova will challenge, reframe, call out, and push back when that serves cognitive clarity, not just validate. The five personas cover the full range from emotional holding to hard structural confrontation.
 
-### 4.2 Differentiation from existing models {#sec-4-2-diff}
+### 4.2 What makes Ekova different {#sec-4-2-diff}
 
-| Pain point | How Ekova addresses it |
-|---|---|
-| Every model has a fixed personality | Five functionally distinct personas, dynamically selected per context |
-| Switching models means starting over | Cross-session unified memory: one disclosure, carried everywhere |
-| Persona drift over long sessions | Style-consistency regularizer (OrthoTune SCR) + inference-time guards per persona |
-| Abrupt style jumps feel jarring | GPT buffer layer bridges high-contrast transitions |
-| No academic grounding for persona design | DSD dataset + DeepSupport training framework, peer-reviewed at COLM 2026 |
+Most AI companions ask users to pick a tool and stick with it. Ekova works the other way around: the right support style comes to the user based on what the conversation actually needs. When the mode shifts, a buffer layer handles the transition so the experience stays smooth rather than abrupt. And because the memory layer is unified across all personas and backends, users never carry the burden of re-explaining context. The more they use Ekova, the more it understands them, and the less they have to say.
 
 
 ## 📱 5. Product form and access {#sec-5-product}
@@ -410,7 +383,7 @@ The five-persona structure is validated empirically: a 63-percentage-point gap b
 - **Voice input support**: speech-to-text input adapted for mobile use patterns.
 - **Manual onboarding**: early access by invitation only. User accounts are activated individually to maintain quality and gather structured feedback.
 - **Language**: primary interface in Chinese (Simplified), serving mainland and diaspora Chinese users.
-- **Name design**: 奕可 (Ekova) is gender-neutral in both Chinese and English, suitable for all users without demographic targeting.
+- **Name design**: Ekova is gender-neutral, suitable for all users without demographic targeting.
 
 
 ## 📈 6. Commercial model {#sec-6-biz}
@@ -424,18 +397,7 @@ The five-persona structure is validated empirically: a 63-percentage-point gap b
 
 ### 6.2 Pricing and access {#sec-6-2-pricing}
 
-**Early stage (current)**
-- First 20 conversation turns free, long enough to experience the cross-session memory payoff
-- Paid access via direct contact with the founder, personal WeChat transfer
-- Simple privacy agreement signed bilaterally. Both parties are known to each other, and risk is controlled.
-- API costs borne by the user (BYOK): users supply their own API keys for each model backend
-- Platform fee approximately ¥100 RMB/month, transparently separated from API costs
-
-**Post-compliance stage (through ModelsLive Inc.)**
-- Open subscription at approximately $100 USD/month through ModelsLive Inc. (Delaware C-Corp)
-- API usage displayed transparently in the interface. Users control their own spend.
-- Private customization channel retained for deep personalization requests
-- Early user case studies serve as public testimonials on the ModelsLive company page
+Early access is free for the first 20 conversation turns to let users experience the memory payoff firsthand. Paid access is currently available by reaching out to the founder directly. Longer-term, Ekova will offer public subscription through ModelsLive Inc. API costs are transparently separated from the platform fee.
 
 ### 6.3 Retention mechanics {#sec-6-3-retention}
 
@@ -461,8 +423,6 @@ If you are:
 Feel free to reach out to exchange product progress and collaboration opportunities.
 
 ### 👤 Founder
-
-Ekova was founded by Dr. Yuyan Chen and is led in R&D by Dr. Chen. She received her Ph.D. in Computer Science from Fudan University and has conducted postdoctoral research in the United States. She has long focused on innovation and real-world deployment of large models, dialogue systems, and AI companions. Related results have been published at top international venues including ACL, NeurIPS, CVPR, and EMNLP, and the underlying research system (DeepSupport + DSD) is submitted to COLM 2026.
+Ekova was founded by Dr. Yuyan Chen and is led in R&D by Dr. Chen. She received her Ph.D. in Computer Science from Fudan University and is currently a postdoctoral researcher in Computational Biology in the United States at Cornell University. She has long focused on innovation and real-world deployment of large models and AI4Health. Related results have been published in top international conferences and journals, and have received multiple national invention patents.
 - Homepage: [Yukyin.github.io](https://yukyin.github.io/)
-- Company: [modelslive.org](https://modelslive.org/)
 - Email: [yolandachen0313@gmail.com](mailto:yolandachen0313@gmail.com)
