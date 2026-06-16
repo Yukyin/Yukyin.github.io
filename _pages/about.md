@@ -23,7 +23,7 @@ I ask what capabilities enable models to operate in the world and create real va
 
 
 ## News
-💬 <em>[Jun 16, 2026] Launched **Ekova** — the five DeepSupport personas evolve into a smart friend who always gets you. [[Ekova]](/projects/ekova-en/)</em>  
+💬 <em>[Jun 16, 2026] Launched **Ekova** — the five DeepSupport personas evolve into a smart friend who always gets you. My third entrepreneurial projects! [[Ekova]](/projects/ekova-en/)</em>  
 🏢 <em>[Jun 12, 2026] Founded **ModelsLive Inc.** — a milestone on the path from research to product! [[ModelsLive]](https://modelslive.org)</em>  
 🧬 <em>[Apr 20, 2026] Released **DeltaMap** — a paired scRNA-seq pipeline that constructs immune-state evidence representations from longitudinal delta signals. [[Code]](https://github.com/Yukyin/deltamap)</em>  
 🔐 <em>[Apr 12, 2026] Released **GateKeeper** — a cryptographic access control layer for AI agents. Agents operate on opaque object IDs instead of real filesystem paths. [[Code]](https://github.com/Yukyin/gatekeeper)</em>  
