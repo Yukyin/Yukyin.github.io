@@ -336,14 +336,61 @@ This design makes memory the core retention mechanism. The more context a user h
 Ekova's persona system is grounded in peer-reviewed research. The underlying work, submitted to COLM 2026 as **"Ekova: A Personality-Support Agent for Self-Discovery Dialogue"**, establishes the five-persona structure through a purpose-built training framework and a real longitudinal interaction dataset. Each persona is validated as functionally distinct: no two are substitutable, and the system is designed so that removing any one of them would meaningfully reduce what the companion can offer. This gives Ekova's multi-persona design an interpretable, research-backed foundation rather than ad-hoc style tuning.
 
 
-## 🎥 3. Interface showcase {#sec-3-demo}
+## 🎥 3. Demo and interface showcase {#sec-3-demo}
+
+Ekova surfaces as a single companion whose voice adapts based on what you select. In Default mode the system automatically picks the most fitting persona for your input. In Custom mode you choose which personas to blend, and Ekova synthesizes them into one unified response. The demo uses deterministic outputs to ensure consistent, stable replies across sessions.
+
+<div style="margin:0.4rem 0 0.8rem;">
+  <video id="demo-ekova" controls playsinline preload="metadata"
+    style="display:block; width:80%; max-width:860px; margin:0 auto; border-radius:14px;">
+    <source src="https://github.com/Yukyin/Yukyin.github.io/releases/download/videos-v1/ekova-demo.mp4" type="video/mp4">
+    Your browser does not support video playback. You can also directly visit: https://github.com/Yukyin/Yukyin.github.io/releases/download/videos-v1/ekova-demo.mp4
+  </video>
+</div>
+
+<div class="pa-watchguide" data-video="demo-ekova"
+     style="max-width:860px; margin:0.55rem auto 0.9rem; font-size:.78rem; color:#444; line-height:1.8;">
+  <span class="wg" data-t="0">0:00 Default mode: auto persona selection</span>
+  <span class="wg" data-t="27">0:27 Custom mode: one persona selected</span>
+  <span class="wg" data-t="33">0:33 Custom mode: three personas blended</span>
+  <span class="wg" data-t="52">0:52 Custom mode: four personas blended</span>
+  <span class="wg" data-t="76">1:16 Custom mode: all five personas</span>
+</div>
+
+<script>
+document.addEventListener("click", (e) => {
+  const el = e.target.closest(".pa-watchguide .wg");
+  if(!el) return;
+  const wrap = el.closest(".pa-watchguide");
+  const vid = document.getElementById(wrap.dataset.video);
+  if(!vid) return;
+  vid.currentTime = Number(el.dataset.t || 0);
+  vid.play();
+});
+</script>
+
+<style>
+.pa-watchguide .wg{
+  display:inline-block;
+  margin:0 10px 6px 0;
+  padding:2px 10px;
+  border:1px solid rgba(0,0,0,.12);
+  border-radius:999px;
+  cursor:pointer;
+  background:#fff;
+  user-select:none;
+}
+.pa-watchguide .wg:hover{
+  text-decoration: underline;
+}
+</style>
 
 - Default mode: Ekova automatically selects the most suitable support persona and routes to the appropriate backend based on the user's current input, maintaining a coherent interaction identity across sessions.
 
-<div style="text-align:center; margin: 0.25rem 0 0.9rem;">
+<div style="text-align:center; margin: 0.55rem 0 0.9rem;">
   <img src="/assets/ekova/ekova-interface.png"
       alt="Ekova main interface, adaptive routing across five personas"
-      style="width:90%; height:auto; display:inline-block;" />
+      style="width:80%; max-width:860px; height:auto; display:inline-block;" />
   <div class="ek-caption" style="margin-top:0.35rem;">
     <em>Fig 1: Ekova adaptive routing interface. The agent selects a support persona, here Gonzo, and generates a response that recontextualizes the user's workplace frustration through a machine learning analogy.</em>
   </div>
@@ -354,7 +401,7 @@ Ekova's persona system is grounded in peer-reviewed research. The underlying wor
 <div style="text-align:center; margin: 0.25rem 0 0.9rem;">
   <img src="/assets/ekova/five-interface.png"
       alt="Ekova persona selection interface, all five personas"
-      style="width:100%; height:auto; display:inline-block;" />
+      style="width:80%; max-width:860px; height:auto; display:inline-block;" />
   <div class="ek-caption" style="margin-top:0.35rem;">
     <em>Fig 2: Customized persona selection interface. Users choose a support style and view the corresponding reference response. The same user input about a failed delivery yields five structurally distinct responses: emotional holding (Warm), ironic distance (Tsukkomi), factual reframing (Real), analogical reframing via "paid DLC" (Gonzo), and a three-step resolution plan (Coach).</em>
   </div>
