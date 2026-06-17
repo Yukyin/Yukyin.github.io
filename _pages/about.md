@@ -25,25 +25,23 @@ I ask what capabilities enable models to operate in the world and create real va
 ## News
 
 <div style="height:17rem; overflow-y:auto; border:1px solid rgba(0,0,0,0.08); border-radius:12px; padding:0.75rem 1rem; background:rgba(0,0,0,0.015); line-height:2.0; font-size:0.92rem;">
-💬 <em>[Jun 16, 2026] Launched **Ekova** — the five DeepSupport personas evolve into a smart friend who always gets you. My third entrepreneurial project! [[Ekova]](/projects/ekova-en/)</em>  
-🏢 <em>[Jun 12, 2026] Founded **ModelsLive Inc.** — a milestone on the path from research to product! [[ModelsLive]](https://modelslive.org)</em>  
-🧬 <em>[Apr 20, 2026] Released **DeltaMap** — a paired scRNA-seq pipeline that constructs immune-state evidence representations from longitudinal delta signals. [[Code]](https://github.com/Yukyin/deltamap)</em>  
-🔐 <em>[Apr 12, 2026] Released **GateKeeper** — a cryptographic access control layer for AI agents. Agents operate on opaque object IDs instead of real filesystem paths. [[Code]](https://github.com/Yukyin/gatekeeper)</em>  
-🧬 <em>[Apr 8, 2026] Released **CUT&Tag Agent** — an AI-powered epigenomic pipeline assistant that converts CUT&Tag tutorials into interactive agentic workflows. [[Code]](https://github.com/Yukyin/cuttag-agent) [[Demo]](https://drive.google.com/file/d/19rU1KYLlXunBvZUn90XhOp6QbaWI0UFG/view)</em>  
-🏥 <em>[Mar 18, 2026] Released **CTIAgent** — an active evidence acquisition agent for clinical trial intelligence. [[Code]](https://github.com/Yukyin/CTIAgent)</em>  
-💬 <em>[Feb 19, 2026] Launched **MischiefClub** demo — a cathartic, role-based venting interface with reality-blocking guardrails. [[Code]](https://github.com/Yukyin/MischiefClub) [[Demo]](https://yukyin.github.io/MischiefClub/demo/mischiefclub_en.html)</em>  
-🔐 <em>[Feb 18, 2026] Released **PolitePoison** — a real-world implicit toxicity dialogue dataset for detecting polite but harmful utterances. [[Dataset]](https://huggingface.co/datasets/Yukyin/polite-poison)</em>  
-💬 <em>[Feb 18, 2026] Introduced three new DeepSupport personas: **Tsukkomi**, **Real**, and **Gonzo**, and provided runnable examples. [[Tsukkomi]](https://github.com/Yukyin/DeepSupport/blob/main/DeepSupport_Tsukkomi/EXAMPLES.md) [[Real]](https://github.com/Yukyin/DeepSupport/blob/main/DeepSupport_Real/EXAMPLES.md)  [[Gonzo]](https://github.com/Yukyin/DeepSupport/blob/main/DeepSupport_Gonzo/EXAMPLES.md)</em>  
-💼 <em>[Jan 07, 2026] Launched **ProAdvisor** and **VerbalValue** demos — my entrepreneurial projects. Welcome to connect and collaborate! [[ProAdvisor]](/projects/proadvisor-en/) [[VerbalValue]](/projects/verbalvalue-en/)</em>  
-🔐 <em>[Jan 05, 2026] Released **GPU Watchdog** — a tiny HPC-friendly GPU usage watcher with email alerts. [[Code]](https://github.com/Yukyin/gpu-watchdog)</em>  
-💬 <em>[Jan 04, 2026] Introduced another mode of DeepSupport: **DeepSupport Warm** — an emotional-holding companion, and released the Warm LoRA adapter. [[Warm]](https://github.com/Yukyin/DeepSupport/tree/main/DeepSupport_Warm) [[Model]](https://huggingface.co/Yukyin/deepsupport-warm-lora-oss)</em>  
-💬 <em>[Dec 23, 2025] Proposed **DeepSupport** and released its first mode: **DeepSupport Coach** — a problem-clarification and action-planning companion. [[Code]](https://github.com/Yukyin/DeepSupport) [[Coach]](https://github.com/Yukyin/DeepSupport/tree/main/DeepSupport_Coach)</em>  
-🔐 <em>[Dec 18, 2025] Released **mmqlint** — a lightweight quality gate for LLM and VLM training and inference datasets. [[Code]](https://github.com/Yukyin/mmqlint)</em>  
-🛠️ <em>[Dec 16, 2025] Released **3D↔2D Toolkit** — a generic 3D↔2D slicing and multiview fusion pipeline. [[Code]](https://github.com/Yukyin/2d3d_toolkit)</em>  
-💬 <em>[Dec 12, 2025] Released **MoodTrace** — a longitudinal emotion dialogue benchmark scaffold. [[Dataset]](https://huggingface.co/datasets/Yukyin/moodtrace-20d)</em>  
-
-<!-- Add new items here (keep ~3–8 most recent to avoid clutter). -->
-
+<p>💬 <em>[Jun 16, 2026] Launched <strong>Ekova</strong> — the five DeepSupport personas evolve into a smart friend who always gets you. My third entrepreneurial project! [<a href="/projects/ekova-en/">Ekova</a>]</em></p>
+<p>🏢 <em>[Jun 12, 2026] Founded <strong>ModelsLive Inc.</strong> — a milestone on the path from research to product! [<a href="https://modelslive.org">ModelsLive</a>]</em></p>
+<p>🧬 <em>[Apr 20, 2026] Released <strong>DeltaMap</strong> — a paired scRNA-seq pipeline that constructs immune-state evidence representations from longitudinal delta signals. [<a href="https://github.com/Yukyin/deltamap">Code</a>]</em></p>
+<p>🔐 <em>[Apr 12, 2026] Released <strong>GateKeeper</strong> — a cryptographic access control layer for AI agents. Agents operate on opaque object IDs instead of real filesystem paths. [<a href="https://github.com/Yukyin/gatekeeper">Code</a>]</em></p>
+<p>🧬 <em>[Apr 8, 2026] Released <strong>CUT&amp;Tag Agent</strong> — an AI-powered epigenomic pipeline assistant that converts CUT&amp;Tag tutorials into interactive agentic workflows. [<a href="https://github.com/Yukyin/cuttag-agent">Code</a>] [<a href="https://drive.google.com/file/d/19rU1KYLlXunBvZUn90XhOp6QbaWI0UFG/view">Demo</a>]</em></p>
+<p>🏥 <em>[Mar 18, 2026] Released <strong>CTIAgent</strong> — an active evidence acquisition agent for clinical trial intelligence. [<a href="https://github.com/Yukyin/CTIAgent">Code</a>]</em></p>
+<p>💬 <em>[Feb 19, 2026] Launched <strong>MischiefClub</strong> demo — a cathartic, role-based venting interface with reality-blocking guardrails. [<a href="https://github.com/Yukyin/MischiefClub">Code</a>] [<a href="https://yukyin.github.io/MischiefClub/demo/mischiefclub_en.html">Demo</a>]</em></p>
+<p>🔐 <em>[Feb 18, 2026] Released <strong>PolitePoison</strong> — a real-world implicit toxicity dialogue dataset for detecting polite but harmful utterances. [<a href="https://huggingface.co/datasets/Yukyin/polite-poison">Dataset</a>]</em></p>
+<p>💬 <em>[Feb 18, 2026] Introduced three new DeepSupport personas: <strong>Tsukkomi</strong>, <strong>Real</strong>, and <strong>Gonzo</strong>, and provided runnable examples. [<a href="https://github.com/Yukyin/DeepSupport/blob/main/DeepSupport_Tsukkomi/EXAMPLES.md">Tsukkomi</a>] [<a href="https://github.com/Yukyin/DeepSupport/blob/main/DeepSupport_Real/EXAMPLES.md">Real</a>] [<a href="https://github.com/Yukyin/DeepSupport/blob/main/DeepSupport_Gonzo/EXAMPLES.md">Gonzo</a>]</em></p>
+<p>💼 <em>[Jan 07, 2026] Launched <strong>ProAdvisor</strong> and <strong>VerbalValue</strong> demos — my entrepreneurial projects. Welcome to connect and collaborate! [<a href="/projects/proadvisor-en/">ProAdvisor</a>] [<a href="/projects/verbalvalue-en/">VerbalValue</a>]</em></p>
+<p>🔐 <em>[Jan 05, 2026] Released <strong>GPU Watchdog</strong> — a tiny HPC-friendly GPU usage watcher with email alerts. [<a href="https://github.com/Yukyin/gpu-watchdog">Code</a>]</em></p>
+<p>💬 <em>[Jan 04, 2026] Introduced another mode of DeepSupport: <strong>DeepSupport Warm</strong> — an emotional-holding companion, and released the Warm LoRA adapter. [<a href="https://github.com/Yukyin/DeepSupport/tree/main/DeepSupport_Warm">Warm</a>] [<a href="https://huggingface.co/Yukyin/deepsupport-warm-lora-oss">Model</a>]</em></p>
+<p>💬 <em>[Dec 23, 2025] Proposed <strong>DeepSupport</strong> and released its first mode: <strong>DeepSupport Coach</strong> — a problem-clarification and action-planning companion. [<a href="https://github.com/Yukyin/DeepSupport">Code</a>] [<a href="https://github.com/Yukyin/DeepSupport/tree/main/DeepSupport_Coach">Coach</a>]</em></p>
+<p>🔐 <em>[Dec 18, 2025] Released <strong>mmqlint</strong> — a lightweight quality gate for LLM and VLM training and inference datasets. [<a href="https://github.com/Yukyin/mmqlint">Code</a>]</em></p>
+<p>🛠️ <em>[Dec 16, 2025] Released <strong>3D&#8596;2D Toolkit</strong> — a generic 3D&#8596;2D slicing and multiview fusion pipeline. [<a href="https://github.com/Yukyin/2d3d_toolkit">Code</a>]</em></p>
+<p>💬 <em>[Dec 12, 2025] Released <strong>MoodTrace</strong> — a longitudinal emotion dialogue benchmark scaffold. [<a href="https://huggingface.co/datasets/Yukyin/moodtrace-20d">Dataset</a>]</em></p>
+<!-- Add new items as <p> tags here -->
 </div>
 
 
