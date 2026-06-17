@@ -504,6 +504,6 @@ Feel free to reach out to exchange product progress and collaboration opportunit
 
 ### 👤 Founder
 VerbalValue is one of the flagship products of ModelsLive Inc. It was founded by Dr. Yuyan Chen. She received her Ph.D. in Computer Science from Fudan University and is currently a postdoctoral researcher in Computational Biology in the United States at Cornell University. She has long focused on innovation and real-world deployment of large models and AI4Health. Related results have been published in top international conferences and journals, and have received multiple national invention patents.
-- Personal homepage: [Yukyin.github.io](https://yukyin.github.io/)
+- Personal homepage: [yukyin.github.io](https://yukyin.github.io/)
 - Company homepage: [modelslive.org](https://modelslive.org/)
 - Email: [ychen@modelslive.org](mailto:ychen@modelslive.org)

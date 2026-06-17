@@ -256,7 +256,6 @@ h1.page__title{
       <a class="l3" href="#sec-2-1-routing">2.1 Context-aware model routing</a>
       <a class="l3" href="#sec-2-2-buffer">2.2 Transition buffer layer</a>
       <a class="l3" href="#sec-2-3-memory">2.3 Unified cross-session memory</a>
-      <a class="l3" href="#sec-2-4-research">2.4 Research backing</a>
 
       <a href="#sec-3-demo">🎥 3. Interface showcase</a>
       <a href="#sec-4-demo">🎬 4. Demo video</a>
@@ -332,9 +331,7 @@ All conversation history is stored in a centralized database owned by the platfo
 
 This design makes memory the core retention mechanism. The more context a user has built up, the higher the switching cost to any alternative that starts from zero.
 
-### 2.4 Research backing {#sec-2-4-research}
 
-Ekova's persona system is grounded in peer-reviewed research. The underlying work, submitted to COLM 2026 as **"Ekova: A Personality-Support Agent for Self-Discovery Dialogue"**, establishes the five-persona structure through a purpose-built training framework and a real longitudinal interaction dataset. Each persona is validated as functionally distinct: no two are substitutable, and the system is designed so that removing any one of them would meaningfully reduce what the companion can offer. This gives Ekova's multi-persona design an interpretable, research-backed foundation rather than ad-hoc style tuning.
 
 
 ## 🎥 3. Interface showcase {#sec-3-demo}
@@ -368,14 +365,14 @@ Ekova surfaces as a single companion whose voice adapts based on what you select
 
 <div style="margin:0.4rem 0 0.8rem;">
   <video id="demo-ekova" controls playsinline preload="metadata"
-    style="display:block; width:80%; max-width:860px; margin:0 auto; border-radius:14px;">
+    style="display:block; width:100%; margin:0 auto; border-radius:14px;">
     <source src="https://github.com/Yukyin/Yukyin.github.io/releases/download/videos-v1/ekova-demo.fast.mp4" type="video/mp4">
     Your browser does not support video playback. You can also directly visit: https://github.com/Yukyin/Yukyin.github.io/releases/download/videos-v1/ekova-demo.fast.mp4
   </video>
 </div>
 
 <div class="pa-watchguide" data-video="demo-ekova"
-     style="max-width:860px; margin:0.55rem auto 0.9rem; font-size:.78rem; color:#444; line-height:1.8;">
+     style="margin:0.55rem auto 0.9rem; font-size:.78rem; color:#444; line-height:1.8;">
   <span class="wg" data-t="0">0:00 Default mode: auto persona selection</span>
   <span class="wg" data-t="27">0:27 Custom mode: one persona selected</span>
   <span class="wg" data-t="33">0:33 Custom mode: three personas blended</span>
@@ -475,6 +472,6 @@ Feel free to reach out to exchange product progress and collaboration opportunit
 
 ### 👤 Founder
 Ekova is one of the flagship products of ModelsLive Inc. It was founded by Dr. Yuyan Chen. She received her Ph.D. in Computer Science from Fudan University and is currently a postdoctoral researcher in Computational Biology in the United States at Cornell University. She has long focused on innovation and real-world deployment of large models and AI4Health. Related results have been published in top international conferences and journals, and have received multiple national invention patents.
-- Personal homepage: [Yukyin.github.io](https://yukyin.github.io/)
+- Personal homepage: [yukyin.github.io](https://yukyin.github.io/)
 - Company homepage: [modelslive.org](https://modelslive.org/)
 - Email: [ychen@modelslive.org](mailto:ychen@modelslive.org)
