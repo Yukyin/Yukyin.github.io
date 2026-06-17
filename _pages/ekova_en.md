@@ -259,21 +259,22 @@ h1.page__title{
       <a class="l3" href="#sec-2-4-research">2.4 Research backing</a>
 
       <a href="#sec-3-demo">🎥 3. Interface showcase</a>
+      <a href="#sec-4-demo">🎬 4. Demo video</a>
 
-      <a href="#sec-4-capabilities">✨ 4. Core capabilities</a>
-      <a class="l3" href="#sec-4-1-user">4.1 Value for users</a>
+      <a href="#sec-5-capabilities">✨ 5. Core capabilities</a>
+      <a class="l3" href="#sec-5-1-user">5.1 Value for users</a>
       <a class="l3" href="#sec-4-2-diff">4.2 Differentiation from existing models</a>
 
-      <a href="#sec-5-product">📱 5. Product form and access</a>
+      <a href="#sec-6-product">📱 6. Product form and access</a>
 
-      <a href="#sec-6-biz">📈 6. Commercial model</a>
-      <a class="l3" href="#sec-6-1-target">6.1 Target users</a>
-      <a class="l3" href="#sec-6-2-pricing">6.2 Pricing and access</a>
-      <a class="l3" href="#sec-6-3-retention">6.3 Retention mechanics</a>
+      <a href="#sec-7-biz">📈 7. Commercial model</a>
+      <a class="l3" href="#sec-7-1-target">7.1 Target users</a>
+      <a class="l3" href="#sec-7-2-pricing">7.2 Pricing and access</a>
+      <a class="l3" href="#sec-7-3-retention">7.3 Retention mechanics</a>
 
-      <a href="#sec-7-roadmap">🧭 7. Future directions</a>
+      <a href="#sec-8-roadmap">🧭 8. Future directions</a>
 
-      <a href="#sec-8-contact">✉️ 8. Contact</a>
+      <a href="#sec-9-contact">✉️ 9. Contact</a>
     </nav>
   </div>
 </div>
@@ -336,15 +337,40 @@ This design makes memory the core retention mechanism. The more context a user h
 Ekova's persona system is grounded in peer-reviewed research. The underlying work, submitted to COLM 2026 as **"Ekova: A Personality-Support Agent for Self-Discovery Dialogue"**, establishes the five-persona structure through a purpose-built training framework and a real longitudinal interaction dataset. Each persona is validated as functionally distinct: no two are substitutable, and the system is designed so that removing any one of them would meaningfully reduce what the companion can offer. This gives Ekova's multi-persona design an interpretable, research-backed foundation rather than ad-hoc style tuning.
 
 
-## 🎥 3. Demo and interface showcase {#sec-3-demo}
+## 🎥 3. Interface showcase {#sec-3-demo}
+
+- Default mode: Ekova automatically selects the most suitable support persona and routes to the appropriate backend based on the user's current input, maintaining a coherent interaction identity across sessions.
+
+<div style="text-align:center; margin: 0.55rem 0 0.9rem;">
+  <img src="/assets/ekova/ekova-interface.png"
+      alt="Ekova main interface, adaptive routing across five personas"
+      style="width:100%; height:auto; display:inline-block;" />
+  <div class="ek-caption" style="margin-top:0.35rem;">
+    <em>Fig 1: Ekova adaptive routing interface. The agent selects a support persona, here Gonzo, and generates a response that recontextualizes the user's workplace frustration through a machine learning analogy.</em>
+  </div>
+</div>
+
+- Personalized mode: users can manually select a specific persona, or combine preferred personas, to receive reference responses under each chosen support style simultaneously.
+
+<div style="text-align:center; margin: 0.25rem 0 0.9rem;">
+  <img src="/assets/ekova/five-interface.png"
+      alt="Ekova persona selection interface, all five personas"
+      style="width:100%; height:auto; display:inline-block;" />
+  <div class="ek-caption" style="margin-top:0.35rem;">
+    <em>Fig 2: Customized persona selection interface. Users choose a support style and view the corresponding reference response. The same user input about a failed delivery yields five structurally distinct responses: emotional holding (Warm), ironic distance (Tsukkomi), factual reframing (Real), analogical reframing via "paid DLC" (Gonzo), and a three-step resolution plan (Coach).</em>
+  </div>
+</div>
+
+
+## 🎬 4. Demo video {#sec-4-demo}
 
 Ekova surfaces as a single companion whose voice adapts based on what you select. In Default mode the system automatically picks the most fitting persona for your input. In Custom mode you choose which personas to blend, and Ekova synthesizes them into one unified response. The demo uses deterministic outputs to ensure consistent, stable replies across sessions.
 
 <div style="margin:0.4rem 0 0.8rem;">
   <video id="demo-ekova" controls playsinline preload="metadata"
     style="display:block; width:80%; max-width:860px; margin:0 auto; border-radius:14px;">
-    <source src="https://github.com/Yukyin/Yukyin.github.io/releases/download/videos-v1/ekova-demo.mp4" type="video/mp4">
-    Your browser does not support video playback. You can also directly visit: https://github.com/Yukyin/Yukyin.github.io/releases/download/videos-v1/ekova-demo.mp4
+    <source src="https://github.com/Yukyin/Yukyin.github.io/releases/download/videos-v1/ekova-demo.fast.mp4" type="video/mp4">
+    Your browser does not support video playback. You can also directly visit: https://github.com/Yukyin/Yukyin.github.io/releases/download/videos-v1/ekova-demo.fast.mp4
   </video>
 </div>
 
@@ -385,46 +411,24 @@ document.addEventListener("click", (e) => {
 }
 </style>
 
-- Default mode: Ekova automatically selects the most suitable support persona and routes to the appropriate backend based on the user's current input, maintaining a coherent interaction identity across sessions.
-
-<div style="text-align:center; margin: 0.55rem 0 0.9rem;">
-  <img src="/assets/ekova/ekova-interface.png"
-      alt="Ekova main interface, adaptive routing across five personas"
-      style="width:80%; max-width:860px; height:auto; display:inline-block;" />
-  <div class="ek-caption" style="margin-top:0.35rem;">
-    <em>Fig 1: Ekova adaptive routing interface. The agent selects a support persona, here Gonzo, and generates a response that recontextualizes the user's workplace frustration through a machine learning analogy.</em>
-  </div>
-</div>
-
-- Personalized mode: users can manually select a specific persona, or combine preferred personas, to receive reference responses under each chosen support style simultaneously.
-
-<div style="text-align:center; margin: 0.25rem 0 0.9rem;">
-  <img src="/assets/ekova/five-interface.png"
-      alt="Ekova persona selection interface, all five personas"
-      style="width:80%; max-width:860px; height:auto; display:inline-block;" />
-  <div class="ek-caption" style="margin-top:0.35rem;">
-    <em>Fig 2: Customized persona selection interface. Users choose a support style and view the corresponding reference response. The same user input about a failed delivery yields five structurally distinct responses: emotional holding (Warm), ironic distance (Tsukkomi), factual reframing (Real), analogical reframing via "paid DLC" (Gonzo), and a three-step resolution plan (Coach).</em>
-  </div>
-</div>
 
 
 
+## ✨ 5. Core capabilities {#sec-5-capabilities}
 
-## ✨ 4. Core capabilities {#sec-4-capabilities}
-
-### 4.1 Value for users {#sec-4-1-user}
+### 5.1 Value for users {#sec-5-1-user}
 
 - **Continuity**: the unified memory layer means users never re-explain their situation. Prior context persists across persona switches, model changes, and new sessions.
 - **Multiplicity**: one interface, five functionally distinct conversational modes. Users receive what the moment actually calls for, not the same flavor every time.
 - **Depth over time**: self-knowledge compounds. As users disclose more, Ekova builds a more accurate model of their patterns, constraints, and recurring situations, improving routing precision and response relevance with each session.
 - **No forced positivity**: Ekova will challenge, reframe, call out, and push back when that serves cognitive clarity, not just validate. The five personas cover the full range from emotional holding to hard structural confrontation.
 
-### 4.2 What makes Ekova different {#sec-4-2-diff}
+### 5.2 What makes Ekova different {#sec-5-2-diff}
 
 Most AI companions ask users to pick a tool and stick with it. Ekova works the other way around: the right support style comes to the user based on what the conversation actually needs. When the mode shifts, a buffer layer handles the transition so the experience stays smooth rather than abrupt. And because the memory layer is unified across all personas and backends, users never carry the burden of re-explaining context. The more they use Ekova, the more it understands them, and the less they have to say.
 
 
-## 📱 5. Product form and access {#sec-5-product}
+## 📱 6. Product form and access {#sec-6-product}
 
 - **Web-first**: accessible via mobile browser, no app required. This avoids app store review constraints and accelerates iteration.
 - **Voice input support**: speech-to-text input adapted for mobile use patterns.
@@ -433,25 +437,25 @@ Most AI companions ask users to pick a tool and stick with it. Ekova works the o
 - **Name design**: Ekova is gender-neutral, suitable for all users without demographic targeting.
 
 
-## 📈 6. Commercial model {#sec-6-biz}
+## 📈 7. Commercial model {#sec-7-biz}
 
-### 6.1 Target users {#sec-6-1-target}
+### 7.1 Target users {#sec-7-1-target}
 
 - Heavy multi-model users who have already paid for GPT Plus, Claude Pro, Gemini Advanced, and still context-switch between them manually
 - Users with genuine emotional companionship needs who are unsatisfied with any single model's fixed personality
 - Technically-aware users comfortable with API key management (BYOK model in early stage)
 - Chinese-speaking users globally: mainland China, Hong Kong, Taiwan, and diaspora communities
 
-### 6.2 Pricing and access {#sec-6-2-pricing}
+### 7.2 Pricing and access {#sec-7-2-pricing}
 
 Early access is free for the first 20 conversation turns to let users experience the memory payoff firsthand. Paid access is currently available by reaching out to the founder directly. Longer-term, Ekova will offer public subscription through ModelsLive Inc. API costs are transparently separated from the platform fee.
 
-### 6.3 Retention mechanics {#sec-6-3-retention}
+### 7.3 Retention mechanics {#sec-7-3-retention}
 
 Memory is the primary retention driver. The more context a user accumulates, the higher the migration cost to any fresh-start alternative. The product goal is to deliver a clear "the system remembered what I said" moment within the user's first week. This is the most reliable trigger for converting free users to paid subscribers.
 
 
-## 🧭 7. Future directions {#sec-7-roadmap}
+## 🧭 8. Future directions {#sec-8-roadmap}
 
 - **Multi-language extension**: the current system is Chinese-native. English and multilingual support is a planned expansion, contingent on dataset extension and persona adaptation for cross-cultural conversational norms.
 - **Memory management interface**: give users visibility into and control over their accumulated context, including what has been stored and what can be edited or removed.
@@ -460,7 +464,7 @@ Memory is the primary retention driver. The more context a user accumulates, the
 - **ModelsLive platform integration**: connect Ekova's memory and routing layer with ProAdvisor and VerbalValue under a unified ModelsLive API, enabling shared user context across product surfaces.
 
 
-## ✉️ 8. Contact {#sec-8-contact}
+## ✉️ 9. Contact {#sec-9-contact}
 
 If you are:
 - A Chinese-speaking user who has bounced between multiple AI tools and wants one that actually remembers you
@@ -470,6 +474,7 @@ If you are:
 Feel free to reach out to exchange product progress and collaboration opportunities.
 
 ### 👤 Founder
-Ekova was founded by Dr. Yuyan Chen and is led in R&D by Dr. Chen. She received her Ph.D. in Computer Science from Fudan University and is currently a postdoctoral researcher in Computational Biology in the United States at Cornell University. She has long focused on innovation and real-world deployment of large models and AI4Health. Related results have been published in top international conferences and journals, and have received multiple national invention patents.
-- Homepage: [Yukyin.github.io](https://yukyin.github.io/)
-- Email: [yolandachen0313@gmail.com](mailto:yolandachen0313@gmail.com)
+Ekova is one of the flagship products of ModelsLive Inc. It was founded by Dr. Yuyan Chen. She received her Ph.D. in Computer Science from Fudan University and is currently a postdoctoral researcher in Computational Biology in the United States at Cornell University. She has long focused on innovation and real-world deployment of large models and AI4Health. Related results have been published in top international conferences and journals, and have received multiple national invention patents.
+- Personal homepage: [Yukyin.github.io](https://yukyin.github.io/)
+- Company homepage: [modelslive.org](https://modelslive.org/)
+- Email: [ychen@modelslive.org](mailto:ychen@modelslive.org)
