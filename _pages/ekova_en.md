@@ -1,5 +1,5 @@
 ---
-title: "Ekova: A Personality-Support Companion with Multi-Model Routing and Cross-Session Memory"
+title: "Ekova: A Personality-Support Agent for Self-Discovery Dialogue"
 layout: single
 permalink: /projects/ekova-en/
 classes: wide product-page
