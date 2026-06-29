@@ -25,8 +25,8 @@ I ask what capabilities enable models to operate in the world and create real va
 ## News
 
 <div class="news-scroll" style="height:25.5rem; overflow-y:auto; border:1px solid rgba(0,0,0,0.08); border-radius:12px; padding:0.75rem 1rem; background:rgba(0,0,0,0.015); line-height:1.8; font-size:0.92rem;"><style>.news-scroll p { margin: 0 0 0.3rem 0; }</style>
-<p>🛠️ <em>[Jun 28, 2026] Released <strong>CitationMapGenerator<strong> — a citation impact map generator that visualizes your Google Scholar citations on a world map. [<a href="https://github.com/Yukyin/CitationMapGenerator">Code</a>]</em></p>
-<p>🛠️ <em>[Jun 17, 2026] Released <strong>RemixFig<strong> — a prompt-based tool that converts AI-generated diagram PNGs into fully editable slides. [<a href="https://github.com/Yukyin/RemixFig">Code</a>]</em></p>
+<p>🛠️ <em>[Jun 28, 2026] Released <strong>CitationMapGenerator</strong> — a citation impact map generator that visualizes your Google Scholar citations on a world map. [<a href="https://github.com/Yukyin/CitationMapGenerator">Code</a>]</em></p>
+<p>🛠️ <em>[Jun 17, 2026] Released <strong>RemixFig</strong> — a prompt-based tool that converts AI-generated diagram PNGs into fully editable slides. [<a href="https://github.com/Yukyin/RemixFig">Code</a>]</em></p>
 <p>💬 <em>[Jun 16, 2026] Launched <strong>Ekova</strong> — the five DeepSupport personas evolve into a smart friend who always gets you. My third entrepreneurial project! [<a href="/projects/ekova-en/">Ekova</a>]</em></p>
 <p>🏢 <em>[Jun 12, 2026] Founded <strong>ModelsLive Inc.</strong> — a milestone on the path from research to product! [<a href="https://modelslive.org">ModelsLive</a>]</em></p>
 <p>🧬 <em>[Apr 20, 2026] Released <strong>DeltaMap</strong> — a paired scRNA-seq pipeline that constructs immune-state evidence representations from longitudinal delta signals. [<a href="https://github.com/Yukyin/deltamap">Code</a>]</em></p>
