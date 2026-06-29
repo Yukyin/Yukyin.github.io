@@ -25,10 +25,10 @@ author:
   name             : "Yuyan (Yolanda) Chen"
   pronouns         : # example: "she/her"  
   bio              : "Grounded Multimodal Intelligence, Large Language Models, AI-based Healthcare."
-  location         : "USA"
-  employer         : "Weill Cornell Medicine"
+  location         : ""
+  employer         : ""
   email            : "yolandachen0313@gmail.com"
-  uri              : "https://modelslive.org"
+  uri              : ""
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile

@@ -19,7 +19,7 @@ I ask what capabilities enable models to operate in the world and create real va
 - Active academic service including over 100 peer reviews for top conferences and journals.
 - Innovation outputs including 49 patents filed with 30 granted.
 - Industry experience at Microsoft Research Asia, TikTok.
-- Founded ModelsLive Inc. with three flagship products: ProAdvisor, VerbalValue, and Ekova.
+- Founded [ModelsLive Inc.](https://modelslive.org) with three flagship products: ProAdvisor, VerbalValue, and Ekova.
 
 
 ## News
