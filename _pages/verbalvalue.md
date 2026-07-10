@@ -252,13 +252,13 @@ h1.page__title::before, .page__title::before{
 
 </style>
 
-> ### 📌 Summary
+> ### 📌 摘要
 > 
-> VerbalValue is an AI powered virtual live commerce host engine built for conversion focused selling and continuous engagement in long running sessions.
+> 言值引擎是一款AI驱动的虚拟直播电商主播引擎，面向以转化为核心的销售场景和长时运行下的持续互动。
 > 
-> - Category scalable architecture: The current showcase targets beauty live rooms. The system extends to new categories by swapping category assets such as product libraries and selling playbooks.
-> - End to end live room execution: The host delivers structured pitching as viewers enter, keeps product visuals synchronized with the spoken narrative, handles high volumes of viewer comments, and maintains a coherent selling storyline.
-> - Engagement led conversion: Interactions are turned into decision support and product guidance, helping sustain momentum, reduce dead moments, and keep conversion progress continuous.
+> - 品类可扩展架构，当前展示以美妆直播间为主，通过更换商品库和销售策略等品类资产，系统可迁移至新的品类。
+> - 直播间端到端执行，主播在观众进入时自动开启结构化讲品，保持商品画面与口播内容同步，处理高并发弹幕，并维持连贯的销售主线。
+> - 互动驱动转化，将互动转化为决策辅助与商品引导，帮助保持热度、减少冷场，让转化进程持续推进。
 
 {::nomarkdown}
 
@@ -506,6 +506,7 @@ document.addEventListener("click", (e) => {
 欢迎联系，交流产品进展与合作机会。
 
 ### 👤 创始人
-言值引擎由陈昱妍博士创立并主导研发。陈博士于复旦大学获得计算机博士学位，现为美国康奈尔计算生物方向博士后研究员，长期聚焦大模型与 AI4Health 的技术创新与场景落地。相关成果发表于国际顶级会议与期刊，并获多项国家发明专利授权。
+言值引擎由陈昱妍博士创立并主导研发。陈博士于复旦大学获得计算机博士学位，曾任美国康奈尔计算生物方向博士后研究员，长期聚焦大模型与AI4Health的技术创新与场景落地。相关成果发表于国际顶级会议与期刊，并获多项国家发明专利授权。现为ModelsLive Inc.创始人兼首席执行官。
+- 公司主页：[modelslive.org](https://modelslive.org/)
+- 邮箱：[contact@modelslive.org](mailto:contact@modelslive.org)
 - 个人主页：[Yukyin.github.io](https://yukyin.github.io/)
-- 邮箱：[yolandachen0313@gmail.com](mailto:yolandachen0313@gmail.com)
