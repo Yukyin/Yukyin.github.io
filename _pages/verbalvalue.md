@@ -1,5 +1,5 @@
 ---
-title: 言值引擎（VerbalValue）：AI 虚拟主播与互动转化系统
+title: 言值引擎（VerbalValue）：AI 虚拟主播互动转化系统
 layout: single
 permalink: /projects/verbalvalue/
 classes: wide product-page
