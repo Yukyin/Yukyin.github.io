@@ -274,16 +274,16 @@ h1.page__title{
 </div> -->
 
 
-> ### 📌 Summary
+> ### 📌 摘要
 > 
-> ProAdvisor is an industry-customizable AI consultant for professional advisory workflows where specialist time is scarce and decisions are high-impact.
+> 专问是一款面向专家时间稀缺、决策高影响的专业咨询场景的行业定制化AI顾问。
 > 
-> - Pilot deployment: high-value medical aesthetics services in China.  
-> - Planned verticals: education advising, legal triage, and other expert-heavy service workflows worldwide.
+> - 首个落地场景为中国高客单医疗美容服务。
+> - 规划中的拓展方向包括教育升学规划、法律合规咨询等专家密集型服务场景。
 > 
-> In the current medical aesthetics scenario, ProAdvisor supports two core flows:
-> - Out-of-clinic concierge: an AI front desk that engages clients online, captures needs and key constraints, guides appointment booking, and produces a structured intake summary for handoff to the clinic team.
-> - In-clinic advisor: a consultant-side tool that inherits prior records, guides photo and context collection, drafts structured discussion points, surfaces relevant cases, and generates a concise pre-specialist brief.
+> 在当前医疗美容场景下，专问支持两大核心流程：
+> - 院外接待，AI前台在线接待客户，采集需求与关键约束条件，引导预约登记，并生成结构化沟通小结，用于向机构团队交接。
+> - 院内顾问，顾问侧工具承接院外记录，引导照片与背景资料补充，起草结构化讨论要点，检索相关案例，并生成简洁的专家前置小结。
 
 
 {::nomarkdown}
@@ -650,10 +650,10 @@ document.addEventListener("click", (e) => {
 欢迎联系，交流产品进展与合作机会。
 
 ### 👤 创始人
-专问由陈昱妍博士创立并主导研发。陈博士于复旦大学获得计算机博士学位，现为美国康奈尔计算生物方向博士后研究员，长期聚焦大模型与 AI4Health 的技术创新与场景落地。相关成果发表于国际顶级会议与期刊，并获多项国家发明专利授权。
+专问由陈昱妍博士创立并主导研发。陈博士于复旦大学获得计算机博士学位，曾任美国康奈尔计算生物方向博士后研究员，长期聚焦大模型与AI4Health的技术创新与场景落地。相关成果发表于国际顶级会议与期刊，并获多项国家发明专利授权。现为ModelsLive Inc.创始人兼首席执行官。
+- 公司主页：[modelslive.org](https://modelslive.org/)
+- 邮箱：[contact@modelslive.org](mailto:contact@modelslive.org)
 - 个人主页：[Yukyin.github.io](https://yukyin.github.io/)
-- 邮箱：[yolandachen0313@gmail.com](mailto:yolandachen0313@gmail.com)
-
 
 
 
