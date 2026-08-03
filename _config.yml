@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Yuyan (Yolanda) Chen"
 title_separator          : "-"
 name                     : &name "Yuyan (Yolanda) Chen"
-description              : &description "personal description"
+description              : &description "Yuyan (Yolanda) Chen: PhD from Fudan, postdoc at Cornell, founder of ModelsLive, working on grounded multimodal AI for real-world interaction."
 url                      : https://Yukyin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Yukyin/Yukyin.github.io"
@@ -134,7 +134,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "cyy_card.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: "I did my PhD at Fudan, a postdoc at Cornell, and founded ModelsLive, working on grounded multimodal AI for real-world interaction."
 author_profile: true
 redirect_from: 
   - /about/
