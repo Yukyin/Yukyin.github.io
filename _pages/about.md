@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Yuyan (Yolanda) Chen"
-excerpt: "I did my PhD at Fudan, a postdoc at Cornell, and founded ModelsLive, working on grounded multimodal AI for real-world interaction."
+excerpt: "Founder & CEO of ModelsLive, building grounded multimodal AI for real-world interaction. PhD from Fudan, postdoc at Cornell."
 author_profile: true
 redirect_from: 
   - /about/
