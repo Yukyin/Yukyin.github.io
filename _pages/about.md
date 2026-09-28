@@ -15,16 +15,17 @@ I ask what capabilities enable models to operate in the world and create real va
 
 
 💡<em>Highlights</em>
-- 34 publications including 23 as first author in top conferences.
+- 35 publications including 24 as first author in top conferences.
 - Active academic service including over 100 peer reviews for top conferences and journals.
-- Innovation outputs including 49 patents filed with 30 granted.
+- Innovation outputs including 39 granted patents as first inventor.
 - Industry experience at Microsoft Research Asia, TikTok.
-- Founded [ModelsLive Inc.](https://modelslive.org) with three flagship products: ProAdvisor, VerbalValue, and Ekova.
+- Founded [ModelsLive Inc.](https://modelslive.org) with three live products: ThuRunel, Ottilie, and Ekova.
 
 
 ## News
 
 <div class="news-scroll" style="height:25.5rem; overflow-y:auto; border:1px solid rgba(0,0,0,0.08); border-radius:12px; padding:0.75rem 1rem; background:rgba(0,0,0,0.015); line-height:1.8; font-size:0.92rem;"><style>.news-scroll p { margin: 0 0 0.3rem 0; }</style>
+<p>🚀 <em>[Sep 28, 2026] All three <strong>ModelsLive</strong> products are now live: <strong>ThuRunel</strong> (formerly ProAdvisor), <strong>Ottilie</strong> (formerly VerbalValue), and <strong>Ekova</strong>.</em></p>
 <p>🛠️ <em>[Jun 28, 2026] Released <strong>CitationMapGenerator</strong> — a citation impact map generator that visualizes your Google Scholar citations on a world map. [<a href="https://github.com/Yukyin/CitationMapGenerator">Code</a>]</em></p>
 <p>🛠️ <em>[Jun 17, 2026] Released <strong>RemixFig</strong> — a prompt-based tool that converts AI-generated diagram PNGs into fully editable slides. [<a href="https://github.com/Yukyin/RemixFig">Code</a>]</em></p>
 <p>💬 <em>[Jun 16, 2026] Launched <strong>Ekova</strong> — the five DeepSupport personas evolve into a smart friend who always gets you. My third entrepreneurial project! [<a href="/projects/ekova-en/">Ekova</a>]</em></p>
@@ -88,20 +89,20 @@ I ask what capabilities enable models to operate in the world and create real va
 
 
 
-## Modelslive Flagship Products
+## ModelsLive Products
 
 <div style="display:flex; gap:28px; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin: 1.25rem 0 0.25rem;">
-  <a href="/projects/proadvisor-en/" style="text-decoration:none; text-align:center;">
-    <img src="/assets/proadvisor/zhuanwen-logo.png" alt="ProAdvisor logo" style="height:76px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
-    <div style="margin-top:0.5rem; font-weight:700;">ProAdvisor</div>
+  <a href="https://thurunel.modelslive.org" style="text-decoration:none; text-align:center;">
+    <img src="/assets/proadvisor/zhuanwen-logo.png" alt="ThuRunel logo" style="height:76px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
+    <div style="margin-top:0.5rem; font-weight:700;">ThuRunel</div>
   </a>
 
-  <a href="/projects/verbalvalue-en/" style="text-decoration:none; text-align:center;">
-    <img src="/assets/verbalvalue/gengwang-logo.png" alt="VerbalValue logo" style="height:76px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
-    <div style="margin-top:0.5rem; font-weight:700;">VerbalValue</div>
+  <a href="https://www.twitch.tv/modelslive" style="text-decoration:none; text-align:center;">
+    <img src="/assets/verbalvalue/gengwang-logo.png" alt="Ottilie logo" style="height:76px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
+    <div style="margin-top:0.5rem; font-weight:700;">Ottilie</div>
   </a>
 
-  <a href="/projects/ekova-en/" style="text-decoration:none; text-align:center; margin-left:14px;">
+  <a href="https://ekova.modelslive.org" style="text-decoration:none; text-align:center; margin-left:14px;">
     <div style="height:76px; display:flex; align-items:center; justify-content:center;">
       <img src="/assets/ekova/ekova-logo.png" alt="Ekova logo"
            style="height:50px; width:auto; border-radius:14px; display:block;" />
