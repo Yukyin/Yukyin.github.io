@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am the Founder and CEO of ModelsLive Inc., an AI startup building grounded multimodal agents. I did my Postdoc at Houston Methodist, Weill Cornell Medicine, USA, and received Ph.D. at Fudan University. My overarching research theme is **Models that Live in the World: Grounded Multimodal Intelligence for Real-World Interaction**, spanning reliable question answering, socially-aware responses in everyday life, and scientific discovery. My research interests include <i>large language models, multimodal large models, computational social science, game theory, information economics, and AI-based interdisciplinary research, with a focus on bioinformatics</i>.
+I am the Founder and CEO of ModelsLive Inc., an AI startup building grounded multimodal agents. I did my Postdoc at Houston Methodist, Weill Cornell Medicine, USA, and received Ph.D. at Fudan University. My overarching research theme is **Models that Live in the World: Grounded Multimodal Intelligence for Real-World Interaction**. My research interests include <i>large language models, multimodal large models, embodied AI, and AI-based interdisciplinary research</i>.
 
 I ask what capabilities enable models to operate in the world and create real value. Rather than passive instruction-following agents or generic emotional chatbots, I study models as reliable experts, collaborators, and supportive partners. I organize this agenda around four distinct worlds: Physical, Objective, Subjective, and Scientific. My current work focuses on the objective and subjective worlds, with ongoing efforts in the scientific world through genomics foundation models. I plan to expand into the physical world through embodied AI to enable deeper real-world interaction. [[CV]](/files/YYC_new.pdf)
 
@@ -92,17 +92,17 @@ I ask what capabilities enable models to operate in the world and create real va
 ## ModelsLive Products
 
 <div style="display:flex; gap:28px; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin: 1.25rem 0 0.25rem;">
-  <a href="https://thurunel.modelslive.org" style="text-decoration:none; text-align:center;">
+  <a href="https://modelslive.org/#thurunel" style="text-decoration:none; text-align:center;">
     <img src="/assets/proadvisor/zhuanwen-logo.png" alt="ThuRunel logo" style="height:76px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
     <div style="margin-top:0.5rem; font-weight:700;">ThuRunel</div>
   </a>
 
-  <a href="https://www.twitch.tv/modelslive" style="text-decoration:none; text-align:center;">
+  <a href="https://modelslive.org/#ottilie" style="text-decoration:none; text-align:center;">
     <img src="/assets/verbalvalue/gengwang-logo.png" alt="Ottilie logo" style="height:76px; width:auto; border-radius:14px; display:block; margin:0 auto;" />
     <div style="margin-top:0.5rem; font-weight:700;">Ottilie</div>
   </a>
 
-  <a href="https://ekova.modelslive.org" style="text-decoration:none; text-align:center; margin-left:14px;">
+  <a href="https://modelslive.org/#ekova" style="text-decoration:none; text-align:center; margin-left:14px;">
     <div style="height:76px; display:flex; align-items:center; justify-content:center;">
       <img src="/assets/ekova/ekova-logo.png" alt="Ekova logo"
            style="height:50px; width:auto; border-radius:14px; display:block;" />
