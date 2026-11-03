@@ -17,3 +17,4 @@ assets/**/videos/*.mp4
 # large videos (do not commit)
 assets/**/videos/*.mp4
 *.mp4
+.DS_Store
